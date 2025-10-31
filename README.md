@@ -1,8 +1,8 @@
-Photo Portfolio
+Photo Portfolio: https://photo-portfolio-vercel.vercel.app/
 
 Simple two-page photo site (gallery + about) with a lightbox.
 
-## Add or delete photos
+Add or delete photos
 
 1) Add or remove files in `images/`.
 2) Update the site:
@@ -10,7 +10,7 @@ Simple two-page photo site (gallery + about) with a lightbox.
 node refresh-gallery.js
 ```
 
-## Add sub-photos (albums)
+Add sub-photos (albums)
 
 Choose one:
 - Name subs like `photo<number>s*.*` (e.g., `photo14s1.JPG`, `photo14s2.JPG`) and run:
