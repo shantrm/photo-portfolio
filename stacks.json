@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "stacks": {
+    "1": {
+      "cover": "images/photo1.jpg",
+      "coverHash": "f07f362ab64e6098b51b0208b521f7fa",
+      "subs": []
+    },
+    "2": {
+      "cover": "images/photo2.jpg",
+      "coverHash": "966e513161a9f9be9f6f318cfa0887d9",
+      "subs": [
+        "photo2s1.JPG",
+        "photo2s2.JPG",
+        "photo2s3.JPG"
+      ]
+    },
+    "3": {
+      "cover": "images/photo3.jpeg",
+      "coverHash": "46a45a6e582a5b003d0f4ea34c465759",
+      "subs": []
+    },
+    "4": {
+      "cover": "images/photo4.jpg",
+      "coverHash": "d79a212f6cb91082e40c82a506df04a3",
+      "subs": []
+    },
+    "5": {
+      "cover": "images/photo5.jpg",
+      "coverHash": "5847b25567bce8b28d02fa80a77aa8b4",
+      "subs": []
+    },
+    "6": {
+      "cover": "images/photo6.jpg",
+      "coverHash": "7bfacf5aa4df81004db5e8f051193964",
+      "subs": []
+    },
+    "7": {
+      "cover": "images/photo7.jpg",
+      "coverHash": "8e259a1bc398dbf963f054d313324c1f",
+      "subs": []
+    },
+    "8": {
+      "cover": "images/photo8.jpg",
+      "coverHash": "18a55f4737eb3e58228fa03e69b19bc7",
+      "subs": []
+    },
+    "9": {
+      "cover": "images/photo9.jpg",
+      "coverHash": "5127e6dc14f0643bae56cc72c8788a71",
+      "subs": []
+    },
+    "10": {
+      "cover": "images/photo10.jpg",
+      "coverHash": "b5613a726470c07773706375c4253f2e",
+      "subs": []
+    },
+    "11": {
+      "cover": "images/photo11.jpg",
+      "coverHash": "c0dbc0f18db29ad4dcbf110dbd96ef5e",
+      "subs": []
+    },
+    "12": {
+      "cover": "images/photo12.jpeg",
+      "coverHash": "4fcd567c6481f942e081534a90d92474",
+      "subs": []
+    },
+    "13": {
+      "cover": "images/photo13.jpg",
+      "coverHash": "fe98464fdacf545b031a23213a6270d1",
+      "subs": []
+    },
+    "14": {
+      "cover": "images/photo14.jpg",
+      "coverHash": "4658c75711e3fb5be8b2bec65dd817fd",
+      "subs": [
+        "photo14s1.JPG",
+        "photo14s2.JPG",
+        "photo14s3.JPG"
+      ]
+    },
+    "15": {
+      "cover": "images/photo15.jpg",
+      "coverHash": "f612084d1d1ae25b7c6ac026df8b844f",
+      "subs": []
+    },
+    "16": {
+      "cover": "images/photo16.jpg",
+      "coverHash": "d4049264865dac4bffa6d7e256409e97",
+      "subs": [
+        "photo16s1.JPG"
+      ]
+    },
+    "17": {
+      "cover": "images/photo17.jpg",
+      "coverHash": "485d97c8ac1f43c2dfdc87c317aed56c",
+      "subs": []
+    },
+    "18": {
+      "cover": "images/photo18.jpg",
+      "coverHash": "b040f2c334e0fe69c968f6c4845e8cd1",
+      "subs": []
+    },
+    "19": {
+      "cover": "images/photo19.jpg",
+      "coverHash": "19ba03486afc014ff70bebebcac4c34a",
+      "subs": []
+    },
+    "20": {
+      "cover": "images/photo20.jpg",
+      "coverHash": "478cf5a53966ebeece1fc5f5ce7fc069",
+      "subs": [
+        "photo20s1.JPEG",
+        "photo20s2.JPG"
+      ]
+    },
+    "21": {
+      "cover": "images/photo21.jpg",
+      "coverHash": "9944d479bb34c87023b010f4e6a31d70",
+      "subs": [
+        "photo21s1.JPG"
+      ]
+    },
+    "22": {
+      "cover": "images/photo22.JPG",
+      "coverHash": "a918856329dd405c4088fd199d1ee2e0",
+      "subs": []
+    },
+    "23": {
+      "cover": "images/photo23.jpg",
+      "coverHash": "14e1eece4e1be4852efb32030bccd43a",
+      "subs": []
+    }
+  }
+}

@@ -24,7 +24,8 @@ body {
 /* Navigation */
 .navbar {
     background-color: var(--bg-color);
-    padding: 0.75rem 0; /* smaller header */
+    padding: 0.75rem 0;
+    /* smaller header */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -42,7 +43,8 @@ body {
 
 .logo {
     color: var(--text-color);
-    font-size: 0.85rem; /* slightly smaller */
+    font-size: 0.85rem;
+    /* slightly smaller */
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: lowercase;
@@ -57,7 +59,8 @@ body {
 .nav-links a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: 0.8rem; /* slightly smaller */
+    font-size: 0.8rem;
+    /* slightly smaller */
     font-weight: 300;
     letter-spacing: 0.5px;
     padding: 0.3rem 0;
@@ -74,13 +77,15 @@ body {
 .gallery-container {
     max-width: 1800px;
     margin: 0 auto;
-    padding: 2rem 1.25rem; /* tighter around the grid */
+    padding: 2rem 1.25rem;
+    /* tighter around the grid */
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 6px; /* very small gaps for a "fabric" look */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    /* very small gaps for a "fabric" look */
 }
 
 .gallery-item {
@@ -88,8 +93,24 @@ body {
     overflow: hidden;
     cursor: pointer;
     aspect-ratio: 4/3;
-    background-color: transparent; /* no tile background */
-    border: none; /* remove borders around photos */
+    background-color: transparent;
+    /* no tile background */
+    border: none;
+    /* remove borders around photos */
+}
+
+/* Small visual cue that an item has a stack */
+.gallery-item.has-stack::after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 14px;
+    height: 10px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6) inset,
+        0 -2px 0 0 rgba(255, 255, 255, 0.6),
+        0 -4px 0 0 rgba(255, 255, 255, 0.35);
+    opacity: 0.9;
 }
 
 .gallery-item:hover {
@@ -101,7 +122,13 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: opacity 0.3s ease;
+    opacity: 0;
+    /* fade-in base */
+    transition: opacity 0.35s ease;
+}
+
+.gallery-item.loaded img {
+    opacity: 1;
 }
 
 /* Lightbox */
@@ -145,10 +172,85 @@ body {
     gap: 3rem;
 }
 
+/* Small stack arrows inside the lightbox (for sub-photos within a stack) */
+.stack-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+    /* shown only when a stack is active */
+}
+
+.lightbox.stack-has .stack-btn {
+    display: block;
+}
+
+.stack-btn.stack-prev {
+    left: -48px;
+}
+
+.stack-btn.stack-next {
+    right: -48px;
+}
+
+.stack-frame {
+    position: relative;
+}
+
+.stack-peeks {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.stack-peeks img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    filter: brightness(0.9);
+    transition: opacity 0.25s ease;
+}
+
+.stack-peeks .peek-prev {
+    transform: translate(-10px, 10px) rotate(-2deg);
+}
+
+.stack-peeks .peek-next {
+    transform: translate(10px, -10px) rotate(2deg);
+}
+
 #lightbox-img {
     max-width: 100%;
     max-height: 70vh;
     object-fit: contain;
+    position: relative;
+    z-index: 1;
+    background-color: var(--bg-color);
+}
+
+#lightbox-img.stack-swap {
+    animation: swapIn 180ms ease;
+    will-change: opacity;
+    backface-visibility: hidden;
+}
+
+@keyframes swapIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .metadata {
@@ -236,7 +338,8 @@ body {
 
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.8fr 1.2fr;
+    /* enlarge photo column */
     gap: 6rem;
     align-items: start;
 }
@@ -244,7 +347,93 @@ body {
 .about-image img {
     width: 100%;
     display: block;
-    border: none; /* no border on about image */
+    border: 1px solid #666;
+    opacity: 0;
+    /* fade-in base */
+    transition: opacity 0.35s ease;
+}
+
+.about-image img.is-loaded {
+    opacity: 1;
+}
+
+/* Stack container expanded under a cover item */
+.stack-container {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding: 8px 0 14px;
+    animation: fadeIn 0.25s ease;
+}
+
+.stack-view {
+    position: relative;
+    width: min(1200px, 95%);
+    aspect-ratio: 4 / 3;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    overflow: hidden;
+}
+
+.stack-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.stack-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    border: 0;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.stack-prev {
+    left: 8px;
+}
+
+.stack-next {
+    right: 8px;
+}
+
+.stack-swipe {
+    animation: stackSwipe 180ms ease;
+}
+
+@keyframes stackSwipe {
+    0% {
+        transform: translateX(12px) rotate(0.3deg);
+        opacity: 0.85;
+    }
+
+    100% {
+        transform: translateX(0) rotate(0);
+        opacity: 1;
+    }
+}
+
+/* Loading state for gallery items */
+.gallery-item.loading::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0.04) 100%);
+    animation: shimmer 1.2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
 }
 
 .about-text h1 {
@@ -299,6 +488,16 @@ body {
     color: var(--bg-color);
 }
 
+/* Softer blue links in About text */
+.about-text a {
+    color: #7fb3ff;
+    text-decoration: underline;
+}
+
+.about-text a:hover {
+    color: #a8c8ff;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-container {
@@ -311,7 +510,8 @@ body {
 
     .gallery {
         grid-template-columns: 1fr;
-        gap: 4px; /* keep gaps minimal on mobile too */
+        gap: 4px;
+        /* keep gaps minimal on mobile too */
     }
 
     .gallery-container {
