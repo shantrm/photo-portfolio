@@ -10,8 +10,9 @@ function normalizeToJpg(name) {
     const ext = path.extname(name);
     if (!ext) return null;
     const lower = ext.toLowerCase();
-    if (lower === '.jpg') return null; // already good
-    if (lower === '.jpeg' || lower === '.jpg' || lower === '.jpe') return name.slice(0, -ext.length) + '.jpg';
+    if (lower === '.jpg' || lower === '.jpeg' || lower === '.jpe') {
+        return name.slice(0, -ext.length) + '.jpg';
+    }
     // skip non-jpeg types to avoid breaking transparency or formats
     return null;
 }
@@ -27,17 +28,25 @@ function main() {
     // perform renames (handle collisions by deleting existing exact-duplicate target)
     for (const { from, to } of renames) {
         const src = path.join(IMAGES, from);
+        if (!fs.existsSync(src)) continue;
         const dst = path.join(IMAGES, to);
-        if (fs.existsSync(dst)) {
-            // if destination exists and is same inode/size, remove it first
+        const sameInsensitive = src.toLowerCase() === dst.toLowerCase();
+        if (fs.existsSync(dst) && !sameInsensitive) {
+            // if destination exists and is different file, remove it first
             try { fs.unlinkSync(dst); } catch { }
         }
-        fs.renameSync(src, dst);
+        if (sameInsensitive && src !== dst) {
+            const tmp = `${dst}.tmpcase`; // temporary hop for case-only rename
+            fs.renameSync(src, tmp);
+            fs.renameSync(tmp, dst);
+        } else {
+            fs.renameSync(src, dst);
+        }
         console.log(`renamed: ${from} -> ${to}`);
     }
 
     // update gallery.json if present
-    if (fs.existsSync(MANIFEST)) {
+    if (renames.length && fs.existsSync(MANIFEST)) {
         const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
         let changed = false;
         const map = new Map(renames.map(r => [r.from, r.to]));

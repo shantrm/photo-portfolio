@@ -27,15 +27,15 @@
       },
       "subs": [
         {
-          "file": "photo2s1.JPG",
+          "file": "photo2s1.jpg",
           "date": "2025-10-15T00:13:51.000Z"
         },
         {
-          "file": "photo2s2.JPG",
+          "file": "photo2s2.jpg",
           "date": "2025-10-15T00:25:13.000Z"
         },
         {
-          "file": "photo2s3.JPG",
+          "file": "photo2s3.jpg",
           "date": "2025-10-15T02:18:29.000Z"
         }
       ]
@@ -196,11 +196,15 @@
       },
       "subs": [
         {
-          "file": "photo14s1.JPG",
+          "file": "photo14s1.jpg",
+          "date": "2025-03-30T00:45:54.000Z"
+        },
+        {
+          "file": "photo14s2.jpg",
           "date": "2025-03-30T00:53:48.000Z"
         },
         {
-          "file": "photo14s2.JPG",
+          "file": "photo14s3.jpg",
           "date": "2025-03-30T01:51:06.000Z"
         }
       ]
@@ -231,7 +235,7 @@
       },
       "subs": [
         {
-          "file": "photo16s1.JPG",
+          "file": "photo16s1.jpg",
           "date": "2025-02-03T13:59:06.000Z"
         }
       ]
@@ -292,7 +296,7 @@
           "date": "2024-12-30T22:32:25.000Z"
         },
         {
-          "file": "photo20s2.JPG",
+          "file": "photo20s2.jpg",
           "date": "2024-12-30T22:45:25.000Z"
         }
       ]
@@ -310,7 +314,7 @@
       },
       "subs": [
         {
-          "file": "photo21s1.JPG",
+          "file": "photo21s1.jpg",
           "date": "2024-12-29T22:49:03.000Z"
         }
       ]
@@ -324,7 +328,7 @@
         "aperture": "f/5.6",
         "shutter": "1/1000s",
         "iso": "ISO 200",
-        "key": "photo22.jpg|1788000|1761888006352.7498"
+        "key": "photo22.jpg|1788000|1761938193291.119"
       },
       "subs": []
     },
