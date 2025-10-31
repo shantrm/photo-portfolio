@@ -43,13 +43,13 @@
     {
       "id": "3",
       "cover": {
-        "file": "photo3.jpeg",
+        "file": "photo3.jpg",
         "date": "2025-08-30T23:41:00.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/2.8",
         "shutter": "1/500s",
         "iso": "",
-        "key": "photo3.jpeg|7384138|1761795516160.1917"
+        "key": "photo3.jpg|7384138|1761795516160.1917"
       },
       "subs": []
     },
@@ -160,13 +160,13 @@
     {
       "id": "12",
       "cover": {
-        "file": "photo12.jpeg",
+        "file": "photo12.jpg",
         "date": "2025-04-29T22:26:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo12.jpeg|2245840|1761795516223.3647"
+        "key": "photo12.jpg|2245840|1761795516223.3647"
       },
       "subs": []
     },
@@ -197,14 +197,10 @@
       "subs": [
         {
           "file": "photo14s1.JPG",
-          "date": "2025-03-30T00:45:54.000Z"
-        },
-        {
-          "file": "photo14s2.JPG",
           "date": "2025-03-30T00:53:48.000Z"
         },
         {
-          "file": "photo14s3.JPG",
+          "file": "photo14s2.JPG",
           "date": "2025-03-30T01:51:06.000Z"
         }
       ]
@@ -292,7 +288,7 @@
       },
       "subs": [
         {
-          "file": "photo20s1.JPEG",
+          "file": "photo20s1.jpg",
           "date": "2024-12-30T22:32:25.000Z"
         },
         {
@@ -322,13 +318,13 @@
     {
       "id": "22",
       "cover": {
-        "file": "photo22.JPG",
+        "file": "photo22.jpg",
         "date": "2024-12-29T19:17:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/1000s",
         "iso": "ISO 200",
-        "key": "photo22.JPG|1788000|1761888006352.7498"
+        "key": "photo22.jpg|1788000|1761888006352.7498"
       },
       "subs": []
     },
