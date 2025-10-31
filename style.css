@@ -24,7 +24,7 @@ body {
 /* Navigation */
 .navbar {
     background-color: var(--bg-color);
-    padding: 1.5rem 0;
+    padding: 0.75rem 0; /* smaller header */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -42,7 +42,7 @@ body {
 
 .logo {
     color: var(--text-color);
-    font-size: 0.95rem;
+    font-size: 0.85rem; /* slightly smaller */
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: lowercase;
@@ -57,7 +57,7 @@ body {
 .nav-links a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 0.8rem; /* slightly smaller */
     font-weight: 300;
     letter-spacing: 0.5px;
     padding: 0.3rem 0;
@@ -72,15 +72,15 @@ body {
 
 /* Gallery Page */
 .gallery-container {
-    max-width: 1600px;
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 4rem 3rem;
+    padding: 2rem 1.25rem; /* tighter around the grid */
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 6px; /* very small gaps for a "fabric" look */
 }
 
 .gallery-item {
@@ -88,8 +88,8 @@ body {
     overflow: hidden;
     cursor: pointer;
     aspect-ratio: 4/3;
-    background-color: #2a2a2a;
-    border: 1px solid var(--border-color);
+    background-color: transparent; /* no tile background */
+    border: none; /* remove borders around photos */
 }
 
 .gallery-item:hover {
@@ -244,7 +244,7 @@ body {
 .about-image img {
     width: 100%;
     display: block;
-    border: 1px solid var(--border-color);
+    border: none; /* no border on about image */
 }
 
 .about-text h1 {
@@ -311,11 +311,11 @@ body {
 
     .gallery {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 4px; /* keep gaps minimal on mobile too */
     }
 
     .gallery-container {
-        padding: 2rem 1.5rem;
+        padding: 1.25rem 1rem;
     }
 
     .about-container {
