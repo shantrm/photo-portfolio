@@ -4,38 +4,38 @@
     {
       "id": "1",
       "cover": {
-        "file": "photo1.jpg",
+        "file": "photo1.jpeg",
         "date": "2025-10-25T21:19:40.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/160s",
         "iso": "ISO 100",
-        "key": "photo1.jpg|2024391|1761427180000"
+        "key": "photo1.jpeg|2024391|1761427180000"
       },
       "subs": []
     },
     {
       "id": "2",
       "cover": {
-        "file": "photo2.jpg",
+        "file": "photo2.jpeg",
         "date": "2025-10-15T02:22:21.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/20s",
         "iso": "ISO 100",
-        "key": "photo2.jpg|2422556|1760494941000"
+        "key": "photo2.jpeg|2422556|1760494941000"
       },
       "subs": [
         {
-          "file": "photo2s1.jpg",
+          "file": "photo2s1.jpeg",
           "date": "2025-10-15T00:13:51.000Z"
         },
         {
-          "file": "photo2s2.jpg",
+          "file": "photo2s2.jpeg",
           "date": "2025-10-15T00:25:13.000Z"
         },
         {
-          "file": "photo2s3.jpg",
+          "file": "photo2s3.jpeg",
           "date": "2025-10-15T02:18:29.000Z"
         }
       ]
@@ -43,181 +43,181 @@
     {
       "id": "3",
       "cover": {
-        "file": "photo3.jpg",
+        "file": "photo3.jpeg",
         "date": "2025-10-11T05:44:54.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/2.5",
         "shutter": "1/100s",
         "iso": "ISO 800",
-        "key": "photo3.jpg|7831468|1762029552441.2446"
+        "key": "photo3.jpeg|7831468|1762029552441.2446"
       },
       "subs": []
     },
     {
       "id": "4",
       "cover": {
-        "file": "photo4.jpg",
+        "file": "photo4.jpeg",
         "date": "2025-08-30T23:41:00.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/2.8",
         "shutter": "1/500s",
         "iso": "",
-        "key": "photo4.jpg|7384138|1761795516160.1917"
+        "key": "photo4.jpeg|7384138|1761795516160.1917"
       },
       "subs": []
     },
     {
       "id": "5",
       "cover": {
-        "file": "photo5.jpg",
+        "file": "photo5.jpeg",
         "date": "2025-07-21T00:34:24.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/3.5",
         "shutter": "1/80s",
         "iso": "ISO 125",
-        "key": "photo5.jpg|1944148|1761795516143.4128"
+        "key": "photo5.jpeg|1944148|1761795516143.4128"
       },
       "subs": []
     },
     {
       "id": "6",
       "cover": {
-        "file": "photo6.jpg",
+        "file": "photo6.jpeg",
         "date": "2025-07-16T20:32:21.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/9",
         "shutter": "1/125s",
         "iso": "ISO 125",
-        "key": "photo6.jpg|4297254|1761795516132.1736"
+        "key": "photo6.jpeg|4297254|1761795516132.1736"
       },
       "subs": []
     },
     {
       "id": "7",
       "cover": {
-        "file": "photo7.jpg",
+        "file": "photo7.jpeg",
         "date": "2025-07-13T17:38:58.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/5",
         "shutter": "1/1600s",
         "iso": "ISO 125",
-        "key": "photo7.jpg|3512170|1761795516117.1248"
+        "key": "photo7.jpeg|3512170|1761795516117.1248"
       },
       "subs": []
     },
     {
       "id": "8",
       "cover": {
-        "file": "photo8.jpg",
+        "file": "photo8.jpeg",
         "date": "2025-05-30T20:17:51.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo8.jpg|1815661|1748636271000"
+        "key": "photo8.jpeg|1815661|1748636271000"
       },
       "subs": []
     },
     {
       "id": "9",
       "cover": {
-        "file": "photo9.jpg",
+        "file": "photo9.jpeg",
         "date": "2025-05-26T01:38:53.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/320s",
         "iso": "ISO 200",
-        "key": "photo9.jpg|1559448|1761795516262.3574"
+        "key": "photo9.jpeg|1559448|1761795516262.3574"
       },
       "subs": []
     },
     {
       "id": "10",
       "cover": {
-        "file": "photo10.jpg",
+        "file": "photo10.jpeg",
         "date": "2025-05-26T01:28:43.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/250s",
         "iso": "ISO 200",
-        "key": "photo10.jpg|1824612|1748233723000"
+        "key": "photo10.jpeg|1824612|1748233723000"
       },
       "subs": []
     },
     {
       "id": "11",
       "cover": {
-        "file": "photo11.jpg",
+        "file": "photo11.jpeg",
         "date": "2025-05-26T01:21:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/1600s",
         "iso": "ISO 200",
-        "key": "photo11.jpg|1793650|1761795516235.4563"
+        "key": "photo11.jpeg|1793650|1761795516235.4563"
       },
       "subs": []
     },
     {
       "id": "12",
       "cover": {
-        "file": "photo12.jpg",
+        "file": "photo12.jpeg",
         "date": "2025-05-15T21:16:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/500s",
         "iso": "ISO 100",
-        "key": "photo12.jpg|2228266|1747343814000"
+        "key": "photo12.jpeg|2228266|1747343814000"
       },
       "subs": []
     },
     {
       "id": "13",
       "cover": {
-        "file": "photo13.jpg",
+        "file": "photo13.jpeg",
         "date": "2025-04-29T22:26:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo13.jpg|2245840|1761795516223.3647"
+        "key": "photo13.jpeg|2245840|1761795516223.3647"
       },
       "subs": []
     },
     {
       "id": "14",
       "cover": {
-        "file": "photo14.jpg",
+        "file": "photo14.jpeg",
         "date": "2025-04-24T21:40:43.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/400s",
         "iso": "ISO 200",
-        "key": "photo14.jpg|2183817|1761889768918.8726"
+        "key": "photo14.jpeg|2183817|1761889768918.8726"
       },
       "subs": []
     },
     {
       "id": "15",
       "cover": {
-        "file": "photo15.jpg",
+        "file": "photo15.jpeg",
         "date": "2025-03-30T00:40:35.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/320s",
         "iso": "ISO 200",
-        "key": "photo15.jpg|1872680|1743295235000"
+        "key": "photo15.jpeg|1872680|1743295235000"
       },
       "subs": [
         {
-          "file": "photo15s1.jpg",
+          "file": "photo15s1.jpeg",
           "date": "2025-03-30T00:45:54.000Z"
         },
         {
-          "file": "photo15s2.jpg",
+          "file": "photo15s2.jpeg",
           "date": "2025-03-30T00:53:48.000Z"
         },
         {
-          "file": "photo15s3.jpg",
+          "file": "photo15s3.jpeg",
           "date": "2025-03-30T01:51:06.000Z"
         }
       ]
@@ -225,30 +225,30 @@
     {
       "id": "16",
       "cover": {
-        "file": "photo16.jpg",
+        "file": "photo16.jpeg",
         "date": "2025-03-05T16:49:32.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/1000s",
         "iso": "ISO 100",
-        "key": "photo16.jpg|1683701|1741193372000"
+        "key": "photo16.jpeg|1683701|1741193372000"
       },
       "subs": []
     },
     {
       "id": "17",
       "cover": {
-        "file": "photo17.jpg",
+        "file": "photo17.jpeg",
         "date": "2025-02-03T13:59:18.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/200s",
         "iso": "ISO 200",
-        "key": "photo17.jpg|2716019|1738591158000"
+        "key": "photo17.jpeg|2716019|1738591158000"
       },
       "subs": [
         {
-          "file": "photo17s1.jpg",
+          "file": "photo17s1.jpeg",
           "date": "2025-02-03T13:59:06.000Z"
         }
       ]
@@ -256,60 +256,60 @@
     {
       "id": "18",
       "cover": {
-        "file": "photo18.jpg",
+        "file": "photo18.jpeg",
         "date": "2025-01-27T13:39:27.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/250s",
         "iso": "ISO 200",
-        "key": "photo18.jpg|1910307|1737985167000"
+        "key": "photo18.jpeg|1910307|1737985167000"
       },
       "subs": []
     },
     {
       "id": "19",
       "cover": {
-        "file": "photo19.jpg",
+        "file": "photo19.jpeg",
         "date": "2025-01-03T20:42:48.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo19.jpg|1815201|1761795516205.5273"
+        "key": "photo19.jpeg|1815201|1761795516205.5273"
       },
       "subs": []
     },
     {
       "id": "20",
       "cover": {
-        "file": "photo20.jpg",
+        "file": "photo20.jpeg",
         "date": "2025-01-01T20:24:52.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/25s",
         "iso": "ISO 200",
-        "key": "photo20.jpg|1835285|1761795516195.6794"
+        "key": "photo20.jpeg|1835285|1761795516195.6794"
       },
       "subs": []
     },
     {
       "id": "21",
       "cover": {
-        "file": "photo21.jpg",
+        "file": "photo21.jpeg",
         "date": "2024-12-30T22:43:06.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/125s",
         "iso": "ISO 200",
-        "key": "photo21.jpg|1618228|1761795516176.2158"
+        "key": "photo21.jpeg|1618228|1761795516176.2158"
       },
       "subs": [
         {
-          "file": "photo21s1.jpg",
+          "file": "photo21s1.jpeg",
           "date": "2024-12-30T22:32:25.000Z"
         },
         {
-          "file": "photo21s2.jpg",
+          "file": "photo21s2.jpeg",
           "date": "2024-12-30T22:45:25.000Z"
         }
       ]
@@ -317,17 +317,17 @@
     {
       "id": "22",
       "cover": {
-        "file": "photo22.jpg",
+        "file": "photo22.jpeg",
         "date": "2024-12-29T22:39:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/8s",
         "iso": "ISO 200",
-        "key": "photo22.jpg|2296336|1735511970000"
+        "key": "photo22.jpeg|2296336|1735511970000"
       },
       "subs": [
         {
-          "file": "photo22s1.jpg",
+          "file": "photo22s1.jpeg",
           "date": "2024-12-29T22:49:03.000Z"
         }
       ]
@@ -335,26 +335,26 @@
     {
       "id": "23",
       "cover": {
-        "file": "photo23.jpg",
+        "file": "photo23.jpeg",
         "date": "2024-12-29T19:17:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
         "shutter": "1/1000s",
         "iso": "ISO 200",
-        "key": "photo23.jpg|1788000|1761938193291.119"
+        "key": "photo23.jpeg|1788000|1761938193291.119"
       },
       "subs": []
     },
     {
       "id": "24",
       "cover": {
-        "file": "photo24.jpg",
+        "file": "photo24.jpeg",
         "date": "2024-01-27T02:33:40.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/8s",
         "iso": "ISO 200",
-        "key": "photo24.jpg|2645179|1706322820000"
+        "key": "photo24.jpeg|2645179|1706322820000"
       },
       "subs": []
     }
