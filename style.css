@@ -175,8 +175,8 @@ body {
 /* Small stack arrows inside the lightbox (for sub-photos within a stack) */
 .stack-btn {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: calc(4rem + 3rem + 10px);
+    transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.35);
     color: #fff;
     border: 0;
@@ -192,11 +192,11 @@ body {
 }
 
 .stack-btn.stack-prev {
-    left: -48px;
+    left: calc(50% - 60px);
 }
 
 .stack-btn.stack-next {
-    right: -48px;
+    left: calc(50% + 60px);
 }
 
 .stack-frame {
@@ -260,7 +260,7 @@ body {
 
 .metadata {
     background-color: transparent;
-    padding: 2.5rem 3rem;
+    padding: 4rem 3rem 2.5rem 3rem;
     width: 100%;
     max-width: 800px;
     border-top: 1px solid var(--border-color);
