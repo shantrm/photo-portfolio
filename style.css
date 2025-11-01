@@ -216,16 +216,21 @@ body {
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    filter: brightness(0.9);
-    transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease, transform 0.2s ease;
 }
 
 .stack-peeks .peek-prev {
-    transform: translate(-10px, 10px) rotate(-2deg);
+    transform: translate(-16px, -16px);
+    filter: brightness(0.3);
 }
 
 .stack-peeks .peek-next {
-    transform: translate(10px, -10px) rotate(2deg);
+    transform: translate(-8px, -8px);
+    filter: brightness(0.45);
+}
+
+.lightbox.stack-has #lightbox-img {
+    box-shadow: -12px 12px 12px rgba(0, 0, 0, 0.35);
 }
 
 #lightbox-img {

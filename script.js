@@ -143,31 +143,28 @@ function setLightboxImage(photo) {
 function updatePeeks() {
     if (!peekPrevImg || !peekNextImg) return;
     if (!currentStack) {
-        peekPrevImg.style.opacity = '0';
-        peekNextImg.style.opacity = '0';
+        fadeOutPeek(peekPrevImg);
+        fadeOutPeek(peekNextImg);
         return;
     }
     const len = currentStack.length;
     if (len <= 1) {
-        peekPrevImg.style.opacity = '0';
-        peekNextImg.style.opacity = '0';
+        fadeOutPeek(peekPrevImg);
+        fadeOutPeek(peekNextImg);
         return;
     }
+
     if (len === 2) {
-        // Only show a single peek (the other photo) to avoid a "three-layer" look
         const other = (currentStackIndex + 1) % 2;
-        peekPrevImg.style.opacity = '0';
-        peekNextImg.src = currentStack[other].src;
-        peekNextImg.style.opacity = '0.5';
+        fadeOutPeek(peekPrevImg);
+        setPeekImage(peekNextImg, currentStack[other]);
         return;
     }
-    // len >= 3: show both peeks
+
     const prevI = (currentStackIndex - 1 + len) % len;
     const nextI = (currentStackIndex + 1) % len;
-    peekPrevImg.src = currentStack[prevI].src;
-    peekNextImg.src = currentStack[nextI].src;
-    peekPrevImg.style.opacity = '0.5';
-    peekNextImg.style.opacity = '0.5';
+    setPeekImage(peekPrevImg, currentStack[prevI]);
+    setPeekImage(peekNextImg, currentStack[nextI]);
 }
 
 function closeLightbox() {
@@ -201,6 +198,39 @@ function showStackPrev() {
     if (!currentStack) return;
     currentStackIndex = (currentStackIndex - 1 + currentStack.length) % currentStack.length;
     setLightboxImage(currentStack[currentStackIndex]);
+}
+
+function fadeOutPeek(elem) {
+    if (!elem) return;
+    elem.style.opacity = '0';
+}
+
+function setPeekImage(elem, photo) {
+    if (!elem || !photo) {
+        fadeOutPeek(elem);
+        return;
+    }
+
+    if (elem.dataset.currentSrc === photo.src) {
+        requestAnimationFrame(() => {
+            elem.style.opacity = '1';
+        });
+        return;
+    }
+
+    elem.style.opacity = '0';
+    const loader = new Image();
+    loader.onload = () => {
+        elem.dataset.currentSrc = photo.src;
+        elem.src = photo.src;
+        requestAnimationFrame(() => {
+            elem.style.opacity = '1';
+        });
+    };
+    loader.onerror = () => {
+        fadeOutPeek(elem);
+    };
+    loader.src = photo.src;
 }
 
 // Close lightbox
