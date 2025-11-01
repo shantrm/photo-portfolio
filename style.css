@@ -8,9 +8,9 @@
 :root {
     --primary-color: #fff;
     --text-color: #fff;
-    --bg-color: #1a1a1a;
+    --bg-color: #000;
     --border-color: rgba(255, 255, 255, 0.2);
-    --overlay: rgba(26, 26, 26, 0.98);
+    --overlay: rgba(0, 0, 0, 0.9);
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: var(--bg-color);
+    background-color: rgba(0, 0, 0, 0.85);
     padding: 0.75rem 0;
     /* smaller header */
     position: sticky;
@@ -93,7 +93,7 @@ body {
     overflow: hidden;
     cursor: pointer;
     aspect-ratio: 4/3;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.25);
     /* no tile background */
     border: none;
     /* remove borders around photos */
@@ -259,7 +259,7 @@ body {
 }
 
 .metadata {
-    background-color: var(--bg-color);
+    background-color: transparent;
     padding: 2.5rem 3rem;
     width: 100%;
     max-width: 800px;
