@@ -43,13 +43,13 @@
     {
       "id": "3",
       "cover": {
-        "file": "photo3.JPG",
+        "file": "photo3.jpg",
         "date": "2025-10-11T05:44:54.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/2.5",
         "shutter": "1/100s",
         "iso": "ISO 800",
-        "key": "photo3.JPG|7831468|1762029552441.2446"
+        "key": "photo3.jpg|7831468|1762029552441.2446"
       },
       "subs": []
     },
@@ -209,11 +209,11 @@
       },
       "subs": [
         {
-          "file": "photo15s1.JPG",
+          "file": "photo15s1.jpg",
           "date": "2025-03-30T00:45:54.000Z"
         },
         {
-          "file": "photo15s2.JPG",
+          "file": "photo15s2.jpg",
           "date": "2025-03-30T00:53:48.000Z"
         },
         {

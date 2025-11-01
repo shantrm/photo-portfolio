@@ -6,6 +6,7 @@ function run(cmd) {
 }
 
 try {
+    run('node normalize-extensions.js');
     run('node build-manifest.js');
     run('node rename-from-manifest.js');
     run('node generate-gallery-from-manifest.js');
