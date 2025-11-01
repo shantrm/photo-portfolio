@@ -41,9 +41,22 @@
       ]
     },
     {
+      "id": "x_IMG_4727.JPG",
+      "cover": {
+        "file": "photo3.JPG",
+        "date": "2025-10-11T05:44:54.000Z",
+        "camera": "Canon G7X Mark III",
+        "aperture": "f/2.5",
+        "shutter": "1/100s",
+        "iso": "ISO 800",
+        "key": "IMG_4727.JPG|7831468|1762029552441.2446"
+      },
+      "subs": []
+    },
+    {
       "id": "3",
       "cover": {
-        "file": "photo3.jpg",
+        "file": "photo4.jpg",
         "date": "2025-08-30T23:41:00.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/2.8",
@@ -56,7 +69,7 @@
     {
       "id": "4",
       "cover": {
-        "file": "photo4.jpg",
+        "file": "photo5.jpg",
         "date": "2025-07-21T00:34:24.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/3.5",
@@ -69,7 +82,7 @@
     {
       "id": "5",
       "cover": {
-        "file": "photo5.jpg",
+        "file": "photo6.jpg",
         "date": "2025-07-16T20:32:21.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/9",
@@ -82,7 +95,7 @@
     {
       "id": "6",
       "cover": {
-        "file": "photo6.jpg",
+        "file": "photo7.jpg",
         "date": "2025-07-13T17:38:58.000Z",
         "camera": "Canon G7X Mark III",
         "aperture": "f/5",
@@ -95,7 +108,7 @@
     {
       "id": "7",
       "cover": {
-        "file": "photo7.jpg",
+        "file": "photo8.jpg",
         "date": "2025-05-30T20:17:51.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -108,7 +121,7 @@
     {
       "id": "8",
       "cover": {
-        "file": "photo8.jpg",
+        "file": "photo9.jpg",
         "date": "2025-05-26T01:38:53.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -121,7 +134,7 @@
     {
       "id": "9",
       "cover": {
-        "file": "photo9.jpg",
+        "file": "photo10.jpg",
         "date": "2025-05-26T01:28:43.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -134,7 +147,7 @@
     {
       "id": "10",
       "cover": {
-        "file": "photo10.jpg",
+        "file": "photo11.jpg",
         "date": "2025-05-26T01:21:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -147,7 +160,7 @@
     {
       "id": "11",
       "cover": {
-        "file": "photo11.jpg",
+        "file": "photo12.jpg",
         "date": "2025-05-15T21:16:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -160,7 +173,7 @@
     {
       "id": "12",
       "cover": {
-        "file": "photo12.jpg",
+        "file": "photo13.jpg",
         "date": "2025-04-29T22:26:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -173,7 +186,7 @@
     {
       "id": "13",
       "cover": {
-        "file": "photo13.jpg",
+        "file": "photo14.jpg",
         "date": "2025-04-24T21:40:43.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -186,7 +199,7 @@
     {
       "id": "14",
       "cover": {
-        "file": "photo14.jpg",
+        "file": "photo15.jpg",
         "date": "2025-03-30T00:40:35.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -196,15 +209,15 @@
       },
       "subs": [
         {
-          "file": "photo14s1.jpg",
+          "file": "photo15s1.JPG",
           "date": "2025-03-30T00:45:54.000Z"
         },
         {
-          "file": "photo14s2.jpg",
+          "file": "photo15s2.JPG",
           "date": "2025-03-30T00:53:48.000Z"
         },
         {
-          "file": "photo14s3.jpg",
+          "file": "photo15s3.jpg",
           "date": "2025-03-30T01:51:06.000Z"
         }
       ]
@@ -212,7 +225,7 @@
     {
       "id": "15",
       "cover": {
-        "file": "photo15.jpg",
+        "file": "photo16.jpg",
         "date": "2025-03-05T16:49:32.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -225,7 +238,7 @@
     {
       "id": "16",
       "cover": {
-        "file": "photo16.jpg",
+        "file": "photo17.jpg",
         "date": "2025-02-03T13:59:18.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -235,7 +248,7 @@
       },
       "subs": [
         {
-          "file": "photo16s1.jpg",
+          "file": "photo17s1.jpg",
           "date": "2025-02-03T13:59:06.000Z"
         }
       ]
@@ -243,7 +256,7 @@
     {
       "id": "17",
       "cover": {
-        "file": "photo17.jpg",
+        "file": "photo18.jpg",
         "date": "2025-01-27T13:39:27.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -256,7 +269,7 @@
     {
       "id": "18",
       "cover": {
-        "file": "photo18.jpg",
+        "file": "photo19.jpg",
         "date": "2025-01-03T20:42:48.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -269,7 +282,7 @@
     {
       "id": "19",
       "cover": {
-        "file": "photo19.jpg",
+        "file": "photo20.jpg",
         "date": "2025-01-01T20:24:52.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -282,7 +295,7 @@
     {
       "id": "20",
       "cover": {
-        "file": "photo20.jpg",
+        "file": "photo21.jpg",
         "date": "2024-12-30T22:43:06.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -292,11 +305,11 @@
       },
       "subs": [
         {
-          "file": "photo20s1.jpg",
+          "file": "photo21s1.jpg",
           "date": "2024-12-30T22:32:25.000Z"
         },
         {
-          "file": "photo20s2.jpg",
+          "file": "photo21s2.jpg",
           "date": "2024-12-30T22:45:25.000Z"
         }
       ]
@@ -304,7 +317,7 @@
     {
       "id": "21",
       "cover": {
-        "file": "photo21.jpg",
+        "file": "photo22.jpg",
         "date": "2024-12-29T22:39:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
@@ -314,7 +327,7 @@
       },
       "subs": [
         {
-          "file": "photo21s1.jpg",
+          "file": "photo22s1.jpg",
           "date": "2024-12-29T22:49:03.000Z"
         }
       ]
@@ -322,7 +335,7 @@
     {
       "id": "22",
       "cover": {
-        "file": "photo22.jpg",
+        "file": "photo23.jpg",
         "date": "2024-12-29T19:17:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
@@ -335,7 +348,7 @@
     {
       "id": "23",
       "cover": {
-        "file": "photo23.jpg",
+        "file": "photo24.jpg",
         "date": "2024-01-27T02:33:40.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",

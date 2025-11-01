@@ -84,7 +84,7 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 6px;
+    gap: 2px;
     /* very small gaps for a "fabric" look */
 }
 
@@ -515,7 +515,7 @@ body {
 
     .gallery {
         grid-template-columns: 1fr;
-        gap: 4px;
+        gap: 1px;
         /* keep gaps minimal on mobile too */
     }
 
