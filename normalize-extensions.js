@@ -11,7 +11,7 @@ function normalizeToJpg(name) {
     if (!ext) return null;
     const lower = ext.toLowerCase();
     if (lower === '.jpg' || lower === '.jpeg' || lower === '.jpe') {
-        return name.slice(0, -ext.length) + '.JPG';
+        return name.slice(0, -ext.length) + '.jpg';
     }
     // skip non-jpeg types to avoid breaking transparency or formats
     return null;
