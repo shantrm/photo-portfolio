@@ -1,4 +1,4 @@
-Photo Portfolio: https://photo-portfolio-vercel.vercel.app/
+Photo Portfolio: https://shantrm.github.io/photo-portfolio/
 
 Simple two-page photo site (gallery + about) with a lightbox.
 
