@@ -108,6 +108,31 @@ function openLightbox(index) {
         document.getElementById('photo-date').textContent = '';
     }
 
+    // Set location if available
+    const locationTitle = item.dataset.locationTitle;
+    const coordinates = item.dataset.coordinates;
+    const locationItem = document.getElementById('photo-location-item');
+    const locationElement = document.getElementById('photo-location');
+    if (locationTitle) {
+        locationElement.textContent = locationTitle;
+        locationElement.style.cursor = 'pointer';
+        locationElement.style.textDecoration = 'underline';
+        locationElement.onclick = () => {
+            if (coordinates) {
+                // Pass coordinates as URL parameters
+                window.location.href = `map.html?lat=${coordinates.split(',')[0]}&lng=${coordinates.split(',')[1]}`;
+            } else {
+                window.location.href = 'map.html';
+            }
+        };
+        locationItem.style.display = 'flex';
+    } else {
+        locationElement.onclick = null;
+        locationElement.style.cursor = '';
+        locationElement.style.textDecoration = '';
+        locationItem.style.display = 'none';
+    }
+
     // Show lightbox
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden'; // Prevent scrolling
@@ -275,5 +300,51 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             });
         }
     });
+});
+
+// Handle URL parameters to open specific photo from map
+window.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const photoIndex = urlParams.get('photo');
+    const subIndex = urlParams.get('sub');
+
+    if (photoIndex !== null) {
+        const index = parseInt(photoIndex, 10);
+        if (index >= 0 && index < galleryItems.length) {
+            // Scroll to the photo first
+            galleryItems[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Open lightbox after a short delay to allow scrolling
+            setTimeout(() => {
+                openLightbox(index);
+
+                // If sub photo is specified, navigate to it
+                if (subIndex !== null && galleryItems[index].dataset.stack) {
+                    const stackId = galleryItems[index].dataset.stack;
+                    if (stackMap.has(stackId)) {
+                        const subIdx = parseInt(subIndex, 10);
+                        const stack = stackMap.get(stackId);
+                        if (subIdx >= 0 && subIdx < stack.length) {
+                            // Navigate to the specific sub photo
+                            // currentStack already set by openLightbox, index 0 is cover, 1+ are subs
+                            currentStackIndex = subIdx + 1; // +1 because cover is index 0
+                            if (currentStackIndex >= currentStack.length) {
+                                currentStackIndex = currentStack.length - 1;
+                            }
+                            // Make sure stack buttons are visible
+                            if (stackPrevBtn && stackNextBtn) {
+                                stackPrevBtn.style.display = 'block';
+                                stackNextBtn.style.display = 'block';
+                            }
+                            setLightboxImage(currentStack[currentStackIndex]);
+                        }
+                    }
+                }
+            }, 500);
+
+            // Clean up URL
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
+    }
 });
 

@@ -15,5 +15,3 @@ try {
     console.error('Failed to refresh gallery:', err.message);
     process.exit(1);
 }
-
-

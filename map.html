@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Photo Portfolio</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .map-container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        #map {
+            width: 100% !important;
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        /* Custom marker with image preview */
+        .photo-marker {
+            background: transparent;
+            border: none;
+        }
+
+        .marker-image-container {
+            position: relative;
+            border: 2px solid #000;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .marker-image-container:hover {
+            transform: scale(1.15);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        }
+
+        .marker-image-preview {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .marker-image-container::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid #000;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+        }
+
+        /* Simple red dot marker for zoomed out view */
+        .photo-marker-simple {
+            background: transparent;
+            border: none;
+        }
+
+        .red-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #ff0000;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Map popup styling */
+        .map-photo-popup .leaflet-popup-content-wrapper {
+            padding: 0;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .map-photo-popup .leaflet-popup-content {
+            margin: 0;
+            padding: 0;
+        }
+
+        .map-popup {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .map-popup-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .map-popup-title {
+            margin: 8px;
+            padding: 0;
+            font-size: 0.85rem;
+            color: #333;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Gallery</a></li>
+                <li><a href="map.html" class="active">Map</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="map-container">
+        <div id="map"></div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="map.js"></script>
+    <script>
+        // Calculate navbar height and adjust map container
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbar = document.querySelector('.navbar');
+            if (navbar) {
+                const navbarHeight = navbar.offsetHeight;
+                const mapContainer = document.querySelector('.map-container');
+                const mapDiv = document.getElementById('map');
+                if (mapContainer && mapDiv) {
+                    // Set container to start below navbar
+                    mapContainer.style.top = `${navbarHeight}px`;
+                    mapContainer.style.height = `calc(100vh - ${navbarHeight}px)`;
+                    mapDiv.style.height = '100%';
+                    mapDiv.style.width = '100%';
+
+                    // After map is initialized, invalidate size
+                    setTimeout(() => {
+                        if (window.map) {
+                            window.map.invalidateSize();
+                        }
+                    }, 200);
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

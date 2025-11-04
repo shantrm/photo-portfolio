@@ -76,7 +76,7 @@ function main() {
     const entries = [];
     for (const [, s] of stacks) {
         if (!s.cover) continue;
-        s.subs.sort((a, b) => (new Date(a.date || 0)) - (new Date(b.date || 0)));
+        // Sub photos are not sorted - they appear in the order they're found
         entries.push({ id: String(s.id), cover: s.cover, subs: s.subs });
     }
 
@@ -88,5 +88,4 @@ function main() {
 }
 
 main();
-
 

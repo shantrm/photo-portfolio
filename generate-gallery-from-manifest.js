@@ -19,11 +19,15 @@ function renderItems(items) {
         const settings = [it.cover.aperture, it.cover.shutter, it.cover.iso].filter(Boolean).join(', ');
         const date = it.cover.date || '';
         const camera = it.cover.camera || '';
+        const locationTitle = it.cover.locationTitle || '';
+        const coordinates = it.cover.coordinates ? it.cover.coordinates.join(',') : '';
         const stackAttr = it.subs && it.subs.length > 0 ? ` has-stack" data-stack="${it.id}` : '';
         const cover = `            <div class="gallery-item${stackAttr}" 
                 data-camera="${camera}" 
                 data-settings="${settings}" 
-                data-date="${date}">
+                data-date="${date}"
+                data-location-title="${locationTitle}"
+                data-coordinates="${coordinates}">
                 <img src="images/${it.cover.file}" alt="Photo ${idx + 1}" loading="lazy">
             </div>`;
 
@@ -68,5 +72,4 @@ function main() {
 }
 
 main();
-
 
