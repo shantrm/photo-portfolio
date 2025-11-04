@@ -6,6 +6,7 @@ const { execSync } = require('child_process');
 const ROOT = __dirname;
 const IMAGES = path.join(ROOT, 'images');
 const MANIFEST = path.join(ROOT, 'gallery.json');
+const LOCATIONS = path.join(ROOT, 'locations.json');
 
 function ensureExiftool() {
     try { execSync('exiftool -ver', { stdio: 'ignore' }); }
@@ -82,6 +83,47 @@ function main() {
 
     // Sort stacks by cover date desc (newest first). Missing dates go last.
     entries.sort((a, b) => (new Date(b.cover.date || 0)) - (new Date(a.cover.date || 0)));
+
+    // Merge location data from locations.json if it exists
+    if (fs.existsSync(LOCATIONS)) {
+        try {
+            const locationsData = JSON.parse(fs.readFileSync(LOCATIONS, 'utf8'));
+            const locations = locationsData.locations || {};
+
+            // Merge location data into entries
+            entries.forEach(item => {
+                // Check cover photo
+                if (locations[item.cover.file]) {
+                    const loc = locations[item.cover.file];
+                    if (loc.coordinates) {
+                        item.cover.coordinates = loc.coordinates;
+                    }
+                    if (loc.locationTitle) {
+                        item.cover.locationTitle = loc.locationTitle;
+                    }
+                }
+
+                // Check sub photos
+                if (item.subs) {
+                    item.subs.forEach(sub => {
+                        if (locations[sub.file]) {
+                            const loc = locations[sub.file];
+                            if (loc.coordinates) {
+                                sub.coordinates = loc.coordinates;
+                            }
+                            if (loc.locationTitle) {
+                                sub.locationTitle = loc.locationTitle;
+                            }
+                        }
+                    });
+                }
+            });
+
+            console.log('Merged location data from locations.json');
+        } catch (err) {
+            console.warn(`Warning: Could not parse locations.json: ${err.message}`);
+        }
+    }
 
     fs.writeFileSync(MANIFEST, JSON.stringify({ version: 1, items: entries }, null, 2), 'utf8');
     console.log(`Wrote ${MANIFEST} with ${entries.length} item(s).`);

@@ -1,0 +1,216 @@
+{
+    "_comment": "Location data for photos. This file is preserved when refreshing the gallery.",
+    "_format": "Each entry maps a photo file name to its location data. Both cover and sub photos can have locations.",
+    "locations": {
+        "photo1.jpeg": {
+            "coordinates": [
+                42.27554497039414,
+                -83.7394577157334
+            ],
+            "locationTitle": "Tappan Hall, Ann Arbor, MI"
+        },
+        "photo2.jpeg": {
+            "coordinates": [
+                42.26978060872995,
+                -83.73825853389415
+            ],
+            "locationTitle": "Arch St, Ann Arbor, MI"
+        },
+        "photo3.jpeg": {
+            "coordinates": [
+                42.321328512952356,
+                -83.09354796388892
+            ],
+            "locationTitle": "El Club, Detroit, MI"
+        },
+        "photo4.jpeg": {
+            "coordinates": [
+                30.266400921831462,
+                -97.73669028406225
+            ],
+            "locationTitle": "E 6th St, Austin, TX"
+        },
+        "photo5.jpeg": {
+            "coordinates": [
+                42.26637550579459,
+                -83.74899592771746
+            ],
+            "locationTitle": "Big House, Ann Arbor, MI"
+        },
+        "photo6.jpeg": {
+            "coordinates": [
+                40.74274932306074,
+                -74.0101701368809
+            ],
+            "locationTitle": "Little Island, New York, NY"
+        },
+        "photo7.jpeg": {
+            "coordinates": [
+                42.19277127775742,
+                -74.86738381287884
+            ],
+            "locationTitle": "Lake Arax, NY"
+        },
+        "photo8.jpeg": {
+            "coordinates": [
+                40.68882249439672,
+                -74.04266168854201
+            ],
+            "locationTitle": "Statue of Liberty, New York, NY"
+        },
+        "photo9.jpeg": {
+            "coordinates": [
+                42.281008675052476,
+                -83.72589556177292
+            ],
+            "locationTitle": "The Arb, Ann Arbor, MI"
+        },
+        "photo10.jpeg": {
+            "coordinates": [
+                32.85012528329696,
+                -117.27249849335072
+            ],
+            "locationTitle": "La Jolla Cove, San Diego, CA"
+        },
+        "photo11.jpeg": {
+            "coordinates": [
+                32.850183492461944,
+                -117.2713407805771
+            ],
+            "locationTitle": "La Jolla Cove, San Diego, CA"
+        },
+        "photo12.jpeg": {
+            "coordinates": [
+                42.42324722764652,
+                -83.49271570847655
+            ],
+            "locationTitle": "Fish Hatchery, Northville, MI"
+        },
+        "photo13.jpeg": {
+            "coordinates": [
+                42.27489125753568,
+                -83.73968872224916
+            ],
+            "locationTitle": "Law Quad, Ann Arbor, MI"
+        },
+        "photo14.jpeg": {
+            "coordinates": [
+                42.27941056552996,
+                -83.73177166563457
+            ],
+            "locationTitle": "Stockwell, Ann Arbor, MI"
+        },
+        "photo15.jpeg": {
+            "coordinates": [
+                40.007597310189006,
+                -83.02496643754797
+            ],
+            "locationTitle": "The Schottenstein Center, Columbus, OH"
+        },
+        "photo16.jpeg": {
+            "coordinates": [
+                26.118726048348755,
+                -80.1046230514106
+            ],
+            "locationTitle": "Las Olas Beach, Fort Lauderdale, FL"
+        },
+        "photo17.jpeg": {
+            "coordinates": [
+                42.290992164812856,
+                -83.71837113210965
+            ],
+            "locationTitle": "North Campus, Ann Arbor, MI"
+        },
+        "photo18.jpeg": {
+            "coordinates": [
+                42.276699726767866,
+                -83.73594722224679
+            ],
+            "locationTitle": "West Hall, Ann Arbor, MI"
+        },
+        "photo19.jpeg": {
+            "coordinates": [
+                40.39855871749599,
+                -74.100992989934
+            ],
+            "locationTitle": "Middletown, NJ"
+        },
+        "photo20.jpeg": {
+            "coordinates": [
+                40.85125986177034,
+                -73.94362826333433
+            ],
+            "locationTitle": "George Washington Bridge, New York, NY"
+        },
+        "photo21.jpeg": {
+            "coordinates": [
+                40.44829445953067,
+                -73.99979792099174
+            ],
+            "locationTitle": "Sandy Hook, NJ"
+        },
+        "photo22.jpeg": {
+            "coordinates": [
+                40.77920972973451,
+                -73.96348261210275
+            ],
+            "locationTitle": "The MET, New York, NY"
+        },
+        "photo23.jpeg": {
+            "coordinates": [
+                40.752387494778326,
+                -73.99396447437456
+            ],
+            "locationTitle": "Penn Station, New York, NY"
+        },
+        "photo24.jpeg": {
+            "coordinates": [
+                41.888664628478715,
+                -87.62434040466405
+            ],
+            "locationTitle": "DuSable Bridge, Chicago, IL"
+        },
+        "photo25.jpeg": {
+            "coordinates": [
+                42.192612186131775,
+                -74.86433802317275
+            ],
+            "locationTitle": "Camp Nubar, NY"
+        },
+        "photo26.jpeg": {
+            "coordinates": [
+                42.10798094925366,
+                -86.48931603025454
+            ],
+            "locationTitle": "Silver Beach, St. Joseph, MI"
+        },
+        "photo27.jpeg": {
+            "coordinates": [
+                42.281312527229105,
+                -83.75121067413329
+            ],
+            "locationTitle": "LIVE, Ann Arbor, MI"
+        },
+        "photo28.jpeg": {
+            "coordinates": [
+                44.64509178788705,
+                -84.13784374148928
+            ],
+            "locationTitle": "Mio, MI"
+        },
+        "photo29.jpeg": {
+            "coordinates": [
+                42.27692331009548,
+                -83.73921374223394
+            ],
+            "locationTitle": "Mason Hall, Ann Arbor, MI"
+        },
+        "photo30.jpeg": {
+            "coordinates": [
+                42.27416922622093,
+                -83.7407952316943
+            ],
+            "locationTitle": "E Madison St, Ann Arbor, MI"
+        }
+    }
+}

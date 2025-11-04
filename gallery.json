@@ -10,7 +10,12 @@
         "aperture": "f/2.8",
         "shutter": "1/125s",
         "iso": "ISO 100",
-        "key": "photo1.jpeg|2921463|1762213516919.544"
+        "key": "photo1.jpeg|2921463|1762213516919.544",
+        "coordinates": [
+          42.27554497039414,
+          -83.7394577157334
+        ],
+        "locationTitle": "Tappan Hall, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -23,7 +28,12 @@
         "aperture": "f/2.8",
         "shutter": "1/160s",
         "iso": "ISO 100",
-        "key": "photo2.jpeg|2024391|1761427180000"
+        "key": "photo2.jpeg|2024391|1761427180000",
+        "coordinates": [
+          42.26978060872995,
+          -83.73825853389415
+        ],
+        "locationTitle": "Arch St, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -36,7 +46,12 @@
         "aperture": "f/2.8",
         "shutter": "1/20s",
         "iso": "ISO 100",
-        "key": "photo3.jpeg|2422556|1760494941000"
+        "key": "photo3.jpeg|2422556|1760494941000",
+        "coordinates": [
+          42.321328512952356,
+          -83.09354796388892
+        ],
+        "locationTitle": "El Club, Detroit, MI"
       },
       "subs": [
         {
@@ -62,7 +77,12 @@
         "aperture": "f/2.5",
         "shutter": "1/100s",
         "iso": "ISO 800",
-        "key": "photo4.jpeg|7831468|1762029552441.2446"
+        "key": "photo4.jpeg|7831468|1762029552441.2446",
+        "coordinates": [
+          30.266400921831462,
+          -97.73669028406225
+        ],
+        "locationTitle": "E 6th St, Austin, TX"
       },
       "subs": [
         {
@@ -80,7 +100,12 @@
         "aperture": "f/2.8",
         "shutter": "1/500s",
         "iso": "",
-        "key": "photo5.jpeg|7384138|1761795516160.1917"
+        "key": "photo5.jpeg|7384138|1761795516160.1917",
+        "coordinates": [
+          42.26637550579459,
+          -83.74899592771746
+        ],
+        "locationTitle": "Big House, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -93,7 +118,12 @@
         "aperture": "f/3.5",
         "shutter": "1/80s",
         "iso": "ISO 125",
-        "key": "photo6.jpeg|1944148|1761795516143.4128"
+        "key": "photo6.jpeg|1944148|1761795516143.4128",
+        "coordinates": [
+          40.74274932306074,
+          -74.0101701368809
+        ],
+        "locationTitle": "Little Island, New York, NY"
       },
       "subs": []
     },
@@ -106,7 +136,12 @@
         "aperture": "f/9",
         "shutter": "1/125s",
         "iso": "ISO 125",
-        "key": "photo7.jpeg|4297254|1761795516132.1736"
+        "key": "photo7.jpeg|4297254|1761795516132.1736",
+        "coordinates": [
+          42.19277127775742,
+          -74.86738381287884
+        ],
+        "locationTitle": "Lake Arax, NY"
       },
       "subs": []
     },
@@ -119,7 +154,12 @@
         "aperture": "f/5",
         "shutter": "1/1600s",
         "iso": "ISO 125",
-        "key": "photo8.jpeg|3512170|1761795516117.1248"
+        "key": "photo8.jpeg|3512170|1761795516117.1248",
+        "coordinates": [
+          40.68882249439672,
+          -74.04266168854201
+        ],
+        "locationTitle": "Statue of Liberty, New York, NY"
       },
       "subs": []
     },
@@ -132,7 +172,12 @@
         "aperture": "f/2.8",
         "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo9.jpeg|1815661|1748636271000"
+        "key": "photo9.jpeg|1815661|1748636271000",
+        "coordinates": [
+          42.281008675052476,
+          -83.72589556177292
+        ],
+        "locationTitle": "The Arb, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -145,7 +190,12 @@
         "aperture": "f/2.8",
         "shutter": "1/250s",
         "iso": "ISO 200",
-        "key": "photo10.jpeg|1824612|1748233723000"
+        "key": "photo10.jpeg|1824612|1748233723000",
+        "coordinates": [
+          32.85012528329696,
+          -117.27249849335072
+        ],
+        "locationTitle": "La Jolla Cove, San Diego, CA"
       },
       "subs": []
     },
@@ -158,7 +208,12 @@
         "aperture": "f/5.6",
         "shutter": "1/1600s",
         "iso": "ISO 200",
-        "key": "photo11.jpeg|1793650|1761795516235.4563"
+        "key": "photo11.jpeg|1793650|1761795516235.4563",
+        "coordinates": [
+          32.850183492461944,
+          -117.2713407805771
+        ],
+        "locationTitle": "La Jolla Cove, San Diego, CA"
       },
       "subs": [
         {
@@ -180,7 +235,12 @@
         "aperture": "f/5.6",
         "shutter": "1/500s",
         "iso": "ISO 100",
-        "key": "photo12.jpeg|2228266|1747343814000"
+        "key": "photo12.jpeg|2228266|1747343814000",
+        "coordinates": [
+          42.42324722764652,
+          -83.49271570847655
+        ],
+        "locationTitle": "Fish Hatchery, Northville, MI"
       },
       "subs": []
     },
@@ -193,7 +253,12 @@
         "aperture": "f/5.6",
         "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo13.jpeg|2245840|1761795516223.3647"
+        "key": "photo13.jpeg|2245840|1761795516223.3647",
+        "coordinates": [
+          42.27489125753568,
+          -83.73968872224916
+        ],
+        "locationTitle": "Law Quad, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -206,7 +271,12 @@
         "aperture": "f/2.8",
         "shutter": "1/400s",
         "iso": "ISO 200",
-        "key": "photo14.jpeg|2183817|1761889768918.8726"
+        "key": "photo14.jpeg|2183817|1761889768918.8726",
+        "coordinates": [
+          42.27941056552996,
+          -83.73177166563457
+        ],
+        "locationTitle": "Stockwell, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -219,7 +289,12 @@
         "aperture": "f/2.8",
         "shutter": "1/320s",
         "iso": "ISO 200",
-        "key": "photo15.jpeg|1872680|1743295235000"
+        "key": "photo15.jpeg|1872680|1743295235000",
+        "coordinates": [
+          40.007597310189006,
+          -83.02496643754797
+        ],
+        "locationTitle": "The Schottenstein Center, Columbus, OH"
       },
       "subs": [
         {
@@ -228,11 +303,11 @@
         },
         {
           "file": "photo15s2.jpeg",
-          "date": "2025-03-30T01:51:06.000Z"
+          "date": "2025-03-30T00:53:48.000Z"
         },
         {
           "file": "photo15s3.jpeg",
-          "date": "2025-03-30T00:53:48.000Z"
+          "date": "2025-03-30T01:51:06.000Z"
         }
       ]
     },
@@ -245,7 +320,12 @@
         "aperture": "f/5.6",
         "shutter": "1/1000s",
         "iso": "ISO 100",
-        "key": "photo16.jpeg|1683701|1741193372000"
+        "key": "photo16.jpeg|1683701|1741193372000",
+        "coordinates": [
+          26.118726048348755,
+          -80.1046230514106
+        ],
+        "locationTitle": "Las Olas Beach, Fort Lauderdale, FL"
       },
       "subs": []
     },
@@ -258,7 +338,12 @@
         "aperture": "f/5.6",
         "shutter": "1/200s",
         "iso": "ISO 200",
-        "key": "photo17.jpeg|2716019|1738591158000"
+        "key": "photo17.jpeg|2716019|1738591158000",
+        "coordinates": [
+          42.290992164812856,
+          -83.71837113210965
+        ],
+        "locationTitle": "North Campus, Ann Arbor, MI"
       },
       "subs": [
         {
@@ -276,7 +361,12 @@
         "aperture": "f/5.6",
         "shutter": "1/250s",
         "iso": "ISO 200",
-        "key": "photo18.jpeg|1910307|1737985167000"
+        "key": "photo18.jpeg|1910307|1737985167000",
+        "coordinates": [
+          42.276699726767866,
+          -83.73594722224679
+        ],
+        "locationTitle": "West Hall, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -289,7 +379,12 @@
         "aperture": "f/5.6",
         "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo19.jpeg|1815201|1761795516205.5273"
+        "key": "photo19.jpeg|1815201|1761795516205.5273",
+        "coordinates": [
+          40.39855871749599,
+          -74.100992989934
+        ],
+        "locationTitle": "Middletown, NJ"
       },
       "subs": []
     },
@@ -302,7 +397,12 @@
         "aperture": "f/2.8",
         "shutter": "1/25s",
         "iso": "ISO 200",
-        "key": "photo20.jpeg|1835285|1761795516195.6794"
+        "key": "photo20.jpeg|1835285|1761795516195.6794",
+        "coordinates": [
+          40.85125986177034,
+          -73.94362826333433
+        ],
+        "locationTitle": "George Washington Bridge, New York, NY"
       },
       "subs": []
     },
@@ -315,7 +415,12 @@
         "aperture": "f/2.8",
         "shutter": "1/125s",
         "iso": "ISO 200",
-        "key": "photo21.jpeg|1618228|1761795516176.2158"
+        "key": "photo21.jpeg|1618228|1761795516176.2158",
+        "coordinates": [
+          40.44829445953067,
+          -73.99979792099174
+        ],
+        "locationTitle": "Sandy Hook, NJ"
       },
       "subs": [
         {
@@ -337,7 +442,12 @@
         "aperture": "f/2.8",
         "shutter": "1/8s",
         "iso": "ISO 200",
-        "key": "photo22.jpeg|2296336|1735511970000"
+        "key": "photo22.jpeg|2296336|1735511970000",
+        "coordinates": [
+          40.77920972973451,
+          -73.96348261210275
+        ],
+        "locationTitle": "The MET, New York, NY"
       },
       "subs": [
         {
@@ -355,7 +465,12 @@
         "aperture": "f/5.6",
         "shutter": "1/1000s",
         "iso": "ISO 200",
-        "key": "photo23.jpeg|1788000|1761938193291.119"
+        "key": "photo23.jpeg|1788000|1761938193291.119",
+        "coordinates": [
+          40.752387494778326,
+          -73.99396447437456
+        ],
+        "locationTitle": "Penn Station, New York, NY"
       },
       "subs": []
     },
@@ -368,7 +483,12 @@
         "aperture": "f/5.6",
         "shutter": "1/800s",
         "iso": "ISO 200",
-        "key": "photo24.jpeg|951308|1762213899224.6719"
+        "key": "photo24.jpeg|951308|1762213899224.6719",
+        "coordinates": [
+          41.888664628478715,
+          -87.62434040466405
+        ],
+        "locationTitle": "DuSable Bridge, Chicago, IL"
       },
       "subs": []
     },
@@ -381,7 +501,12 @@
         "aperture": "f/2.8",
         "shutter": "1/50s",
         "iso": "ISO 200",
-        "key": "photo25.jpeg|1714002|1762213501302.6592"
+        "key": "photo25.jpeg|1714002|1762213501302.6592",
+        "coordinates": [
+          42.192612186131775,
+          -74.86433802317275
+        ],
+        "locationTitle": "Camp Nubar, NY"
       },
       "subs": [
         {
@@ -390,11 +515,11 @@
         },
         {
           "file": "photo25s2.jpeg",
-          "date": "2024-07-11T17:03:10.000Z"
+          "date": "2024-07-02T18:41:24.000Z"
         },
         {
           "file": "photo25s3.jpeg",
-          "date": "2024-07-02T18:41:24.000Z"
+          "date": "2024-07-11T17:03:10.000Z"
         }
       ]
     },
@@ -407,20 +532,25 @@
         "aperture": "f/5.6",
         "shutter": "1/1300s",
         "iso": "ISO 200",
-        "key": "photo26.jpeg|2709073|1762213666300.4875"
+        "key": "photo26.jpeg|2709073|1762213666300.4875",
+        "coordinates": [
+          42.10798094925366,
+          -86.48931603025454
+        ],
+        "locationTitle": "Silver Beach, St. Joseph, MI"
       },
       "subs": [
         {
           "file": "photo26s1.jpeg",
-          "date": "2024-06-15T21:24:59.000Z"
-        },
-        {
-          "file": "photo26s2.jpeg",
           "date": "2024-06-16T01:09:08.000Z"
         },
         {
-          "file": "photo26s3.jpeg",
+          "file": "photo26s2.jpeg",
           "date": "2024-06-15T15:26:56.000Z"
+        },
+        {
+          "file": "photo26s3.jpeg",
+          "date": "2024-06-15T21:24:59.000Z"
         }
       ]
     },
@@ -433,7 +563,12 @@
         "aperture": "f/2.8",
         "shutter": "1/30s",
         "iso": "ISO 200",
-        "key": "photo27.jpeg|2535501|1762213540369.9353"
+        "key": "photo27.jpeg|2535501|1762213540369.9353",
+        "coordinates": [
+          42.281312527229105,
+          -83.75121067413329
+        ],
+        "locationTitle": "LIVE, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -446,7 +581,12 @@
         "aperture": "f/2.8",
         "shutter": "1/500s",
         "iso": "ISO 100",
-        "key": "photo28.jpeg|2746277|1762213552860.0327"
+        "key": "photo28.jpeg|2746277|1762213552860.0327",
+        "coordinates": [
+          44.64509178788705,
+          -84.13784374148928
+        ],
+        "locationTitle": "Mio, MI"
       },
       "subs": [
         {
@@ -464,7 +604,12 @@
         "aperture": "f/2.8",
         "shutter": "1/320s",
         "iso": "ISO 100",
-        "key": "photo29.jpeg|1970370|1762213542252.1233"
+        "key": "photo29.jpeg|1970370|1762213542252.1233",
+        "coordinates": [
+          42.27692331009548,
+          -83.73921374223394
+        ],
+        "locationTitle": "Mason Hall, Ann Arbor, MI"
       },
       "subs": []
     },
@@ -477,7 +622,12 @@
         "aperture": "f/2.8",
         "shutter": "1/8s",
         "iso": "ISO 200",
-        "key": "photo30.jpeg|2645179|1706322820000"
+        "key": "photo30.jpeg|2645179|1706322820000",
+        "coordinates": [
+          42.27416922622093,
+          -83.7407952316943
+        ],
+        "locationTitle": "E Madison St, Ann Arbor, MI"
       },
       "subs": []
     }

@@ -30,24 +30,46 @@ Choose one:
 
 ## Adding Location Data
 
-To add location coordinates and titles to photos:
+Location data (coordinates and location titles) is stored in `locations.json` to prevent it from being lost when refreshing the gallery.
 
-1) Edit `gallery.json` and add to the cover object:
+### Adding or Editing Locations
+
+1) Edit `locations.json` and add entries for photo files:
 ```json
 {
-  "cover": {
-    "file": "photo1.jpeg",
-    ...
-    "locationTitle": "Location Name",
-    "coordinates": [latitude, longitude]
+  "locations": {
+    "photo1.jpeg": {
+      "coordinates": [42.27554497039414, -83.7394577157334],
+      "locationTitle": "Tappan Hall, Ann Arbor, MI"
+    },
+    "photo2.jpeg": {
+      "coordinates": [42.26978060872995, -83.73825853389415],
+      "locationTitle": "Arch St, Ann Arbor, MI"
+    }
   }
 }
 ```
 
-2) Regenerate the gallery HTML:
+2) Run the refresh script to merge location data into the manifest:
+```bash
+node refresh-gallery.js
+```
+
+Or if you just want to update the HTML without rebuilding:
 ```bash
 node generate-gallery-from-manifest.js
 ```
 
-**Important:** If you add new photos, run `node refresh-gallery.js` first (which rebuilds the manifest from EXIF data), then add your location data to `gallery.json`, then run `node generate-gallery-from-manifest.js` to update the HTML. Running `refresh-gallery.js` will overwrite `gallery.json` and remove any manually added location data.
+### Workflow
+
+- Adding new photos with locations: 
+  1. Add photos to `images/`
+  2. Run `node refresh-gallery.js` (rebuilds manifest from EXIF)
+  3. Add location data to `locations.json` for the new photos
+  4. Run `node refresh-gallery.js` again (merges locations into manifest)
+  5. Run `node generate-gallery-from-manifest.js` (updates HTML)
+
+- Adding locations to existing photos:
+  1. Edit `locations.json` with the location data
+  2. Run `node refresh-gallery.js` (merges locations) OR `node generate-gallery-from-manifest.js` (just updates HTML)
 
