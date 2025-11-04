@@ -264,7 +264,7 @@ body {
 
 .metadata {
     background-color: transparent;
-    padding: 4rem 3rem 2.5rem 3rem;
+    padding: 2rem 3rem 2.5rem 3rem;
     width: 100%;
     max-width: 1000px;
     border-top: 1px solid var(--border-color);
@@ -538,7 +538,7 @@ body {
 
     .lightbox-content {
         margin: 1.5rem;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     #lightbox-img {
@@ -558,17 +558,36 @@ body {
         display: none;
     }
 
+    .stack-btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 4rem;
+        flex-wrap: nowrap;
+    }
+
     .stack-btn {
+        position: relative;
         bottom: auto;
-        top: calc(50vh - 55px);
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 0;
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    .lightbox.stack-has .stack-btn {
+        display: flex;
     }
 
     .stack-btn.stack-prev {
-        left: calc(50% - 40px);
+        left: auto;
     }
 
     .stack-btn.stack-next {
-        left: calc(50% + 40px);
+        left: auto;
     }
 
     .close {
