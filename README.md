@@ -3,6 +3,7 @@ Photo Portfolio: https://shantrm.github.io/photo-portfolio/
 Simple two-page photo site (gallery + about) with a lightbox and map.
 
 Adding or Removing Photos
+==========================
 
 1) Add or remove files in images/.
 2) Update the site:
@@ -15,6 +16,7 @@ This will:
 - Generate the gallery HTML
 
 Adding Sub-Photos (Albums)
+==========================
 
 Choose one:
 - Name subs like photo<number>s*.* (e.g., photo14s1.JPG, photo14s2.JPG) and run:
@@ -23,10 +25,12 @@ Choose one:
   node generate-gallery-from-manifest.js
 
 Adding Location Data
+====================
 
 Location data (coordinates and location titles) is stored in locations.json to prevent it from being lost when refreshing the gallery.
 
 Adding or Editing Locations
+---------------------------
 
 1) Edit locations.json and add entries for photo files:
 {
@@ -49,6 +53,7 @@ Or if you just want to update the HTML without rebuilding:
 node generate-gallery-from-manifest.js
 
 Workflow
+--------
 
 Adding new photos with locations: 
 1. Add photos to images/
