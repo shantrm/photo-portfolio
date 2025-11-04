@@ -2,12 +2,13 @@ Photo Portfolio: https://shantrm.github.io/photo-portfolio/
 
 Simple two-page photo site (gallery + about) with a lightbox and map.
 
-Adding or Removing Photos
-==========================
+**Adding or Removing Photos**
 
 1) Add or remove files in images/.
 2) Update the site:
+```bash
 node refresh-gallery.js
+```
 
 This will:
 - Normalize file extensions
@@ -15,24 +16,26 @@ This will:
 - Rename files to match manifest order
 - Generate the gallery HTML
 
-Adding Sub-Photos (Albums)
-==========================
+**Adding Sub-Photos (Albums)**
 
 Choose one:
 - Name subs like photo<number>s*.* (e.g., photo14s1.JPG, photo14s2.JPG) and run:
-  node refresh-gallery.js
+```bash
+node refresh-gallery.js
+```
 - Or edit gallery.json and add files to the cover's subs array, then run:
-  node generate-gallery-from-manifest.js
+```bash
+node generate-gallery-from-manifest.js
+```
 
-Adding Location Data
-====================
+**Adding Location Data**
 
 Location data (coordinates and location titles) is stored in locations.json to prevent it from being lost when refreshing the gallery.
 
-Adding or Editing Locations
----------------------------
+**Adding or Editing Locations**
 
 1) Edit locations.json and add entries for photo files:
+```json
 {
   "locations": {
     "photo1.jpeg": {
@@ -45,15 +48,19 @@ Adding or Editing Locations
     }
   }
 }
+```
 
 2) Run the refresh script to merge location data into the manifest:
+```bash
 node refresh-gallery.js
+```
 
 Or if you just want to update the HTML without rebuilding:
+```bash
 node generate-gallery-from-manifest.js
+```
 
-Workflow
---------
+**Workflow**
 
 Adding new photos with locations: 
 1. Add photos to images/
