@@ -177,18 +177,22 @@ body {
     position: absolute;
     bottom: calc(4rem + 3rem + 10px);
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.35);
+    background: transparent;
     color: #fff;
     border: 0;
-    padding: 6px 10px;
+    padding: 0;
     font-size: 1.2rem;
     cursor: pointer;
     display: none;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
     /* shown only when a stack is active */
 }
 
 .lightbox.stack-has .stack-btn {
-    display: block;
+    display: flex;
 }
 
 .stack-btn.stack-prev {
@@ -551,8 +555,20 @@ body {
     }
 
     .nav-btn {
-        padding: 0.5rem 1rem;
-        font-size: 1.5rem;
+        display: none;
+    }
+
+    .stack-btn {
+        bottom: auto;
+        top: calc(50vh - 55px);
+    }
+
+    .stack-btn.stack-prev {
+        left: calc(50% - 40px);
+    }
+
+    .stack-btn.stack-next {
+        left: calc(50% + 40px);
     }
 
     .close {
