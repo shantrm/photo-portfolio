@@ -262,13 +262,13 @@ body {
     background-color: transparent;
     padding: 4rem 3rem 2.5rem 3rem;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     border-top: 1px solid var(--border-color);
 }
 
 .metadata-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 2.5rem;
 }
 
