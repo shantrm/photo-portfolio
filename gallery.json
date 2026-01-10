@@ -5,12 +5,12 @@
       "id": "1",
       "cover": {
         "file": "photo1.jpeg",
-        "date": "2025-10-30T19:32:25.000Z",
-        "camera": "Panasonic DMC-FX3",
-        "aperture": "f/2.8",
+        "date": "2025-12-27T02:26:17.000Z",
+        "camera": "Canon G7X Mark III",
+        "aperture": "f/3.5",
         "shutter": "1/125s",
-        "iso": "ISO 100",
-        "key": "photo1.jpeg|2921463|1762213516919.544",
+        "iso": "ISO 125",
+        "key": "photo1.jpeg|2808770|1768086472477.7021",
         "coordinates": [
           42.27554497039414,
           -83.7394577157334
@@ -23,12 +23,12 @@
       "id": "2",
       "cover": {
         "file": "photo2.jpeg",
-        "date": "2025-10-25T21:19:40.000Z",
-        "camera": "Panasonic DMC-FX3",
-        "aperture": "f/2.8",
-        "shutter": "1/160s",
-        "iso": "ISO 100",
-        "key": "photo2.jpeg|2024391|1761427180000",
+        "date": "2025-12-17T23:57:13.000Z",
+        "camera": "Canon G7X Mark III",
+        "aperture": "f/9",
+        "shutter": "1/100s",
+        "iso": "ISO 125",
+        "key": "photo2.jpeg|6395749|1768086472488.365",
         "coordinates": [
           42.26978060872995,
           -83.73825853389415
@@ -41,66 +41,48 @@
       "id": "3",
       "cover": {
         "file": "photo3.jpeg",
-        "date": "2025-10-15T02:22:21.000Z",
+        "date": "2025-11-30T03:49:40.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
-        "shutter": "1/20s",
-        "iso": "ISO 100",
-        "key": "photo3.jpeg|2422556|1760494941000",
+        "shutter": "1/30s",
+        "iso": "ISO 400",
+        "key": "photo3.jpeg|2629957|1768086472500.643",
         "coordinates": [
           42.321328512952356,
           -83.09354796388892
         ],
         "locationTitle": "El Club, Detroit, MI"
       },
-      "subs": [
-        {
-          "file": "photo3s1.jpeg",
-          "date": "2025-10-15T00:13:51.000Z"
-        },
-        {
-          "file": "photo3s2.jpeg",
-          "date": "2025-10-15T00:25:13.000Z"
-        },
-        {
-          "file": "photo3s3.jpeg",
-          "date": "2025-10-15T02:18:29.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "4",
       "cover": {
         "file": "photo4.jpeg",
-        "date": "2025-10-11T05:44:54.000Z",
-        "camera": "Canon G7X Mark III",
-        "aperture": "f/2.5",
-        "shutter": "1/100s",
-        "iso": "ISO 800",
-        "key": "photo4.jpeg|7831468|1762029552441.2446",
+        "date": "2025-11-15T23:13:42.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/3.6",
+        "shutter": "1/250s",
+        "iso": "ISO 100",
+        "key": "photo4.jpeg|1593174|1768086472509.0354",
         "coordinates": [
           30.266400921831462,
           -97.73669028406225
         ],
         "locationTitle": "E 6th St, Austin, TX"
       },
-      "subs": [
-        {
-          "file": "photo4s1.jpeg",
-          "date": "2025-10-11T05:45:23.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "5",
       "cover": {
         "file": "photo5.jpeg",
-        "date": "2025-08-30T23:41:00.000Z",
-        "camera": "Canon G7X Mark III",
+        "date": "2025-11-05T22:09:14.000Z",
+        "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
         "shutter": "1/500s",
-        "iso": "",
-        "key": "photo5.jpeg|7384138|1761795516160.1917",
+        "iso": "ISO 100",
+        "key": "photo5.jpeg|2758854|1768086472519.8433",
         "coordinates": [
           42.26637550579459,
           -83.74899592771746
@@ -113,12 +95,12 @@
       "id": "6",
       "cover": {
         "file": "photo6.jpeg",
-        "date": "2025-07-21T00:34:24.000Z",
-        "camera": "Canon G7X Mark III",
-        "aperture": "f/3.5",
-        "shutter": "1/80s",
-        "iso": "ISO 125",
-        "key": "photo6.jpeg|1944148|1761795516143.4128",
+        "date": "2025-10-30T19:32:25.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/2.8",
+        "shutter": "1/125s",
+        "iso": "ISO 100",
+        "key": "photo6.jpeg|2921463|1762213516919.544",
         "coordinates": [
           40.74274932306074,
           -74.0101701368809
@@ -131,12 +113,12 @@
       "id": "7",
       "cover": {
         "file": "photo7.jpeg",
-        "date": "2025-07-16T20:32:21.000Z",
-        "camera": "Canon G7X Mark III",
-        "aperture": "f/9",
-        "shutter": "1/125s",
-        "iso": "ISO 125",
-        "key": "photo7.jpeg|4297254|1761795516132.1736",
+        "date": "2025-10-25T21:19:40.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/2.8",
+        "shutter": "1/160s",
+        "iso": "ISO 100",
+        "key": "photo7.jpeg|2024391|1761427180000",
         "coordinates": [
           42.19277127775742,
           -74.86738381287884
@@ -149,48 +131,66 @@
       "id": "8",
       "cover": {
         "file": "photo8.jpeg",
-        "date": "2025-07-13T17:38:58.000Z",
-        "camera": "Canon G7X Mark III",
-        "aperture": "f/5",
-        "shutter": "1/1600s",
-        "iso": "ISO 125",
-        "key": "photo8.jpeg|3512170|1761795516117.1248",
+        "date": "2025-10-15T02:22:21.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/2.8",
+        "shutter": "1/20s",
+        "iso": "ISO 100",
+        "key": "photo8.jpeg|2422556|1760494941000",
         "coordinates": [
           40.68882249439672,
           -74.04266168854201
         ],
         "locationTitle": "Statue of Liberty, New York, NY"
       },
-      "subs": []
+      "subs": [
+        {
+          "file": "photo8s1.jpeg",
+          "date": "2025-10-15T00:25:13.000Z"
+        },
+        {
+          "file": "photo8s2.jpeg",
+          "date": "2025-10-15T02:18:29.000Z"
+        },
+        {
+          "file": "photo8s3.jpeg",
+          "date": "2025-10-15T00:13:51.000Z"
+        }
+      ]
     },
     {
       "id": "9",
       "cover": {
         "file": "photo9.jpeg",
-        "date": "2025-05-30T20:17:51.000Z",
-        "camera": "Panasonic DMC-FX3",
-        "aperture": "f/2.8",
-        "shutter": "1/500s",
-        "iso": "ISO 200",
-        "key": "photo9.jpeg|1815661|1748636271000",
+        "date": "2025-10-11T05:44:54.000Z",
+        "camera": "Canon G7X Mark III",
+        "aperture": "f/2.5",
+        "shutter": "1/100s",
+        "iso": "ISO 800",
+        "key": "photo9.jpeg|7831468|1762029552441.2446",
         "coordinates": [
           42.281008675052476,
           -83.72589556177292
         ],
         "locationTitle": "The Arb, Ann Arbor, MI"
       },
-      "subs": []
+      "subs": [
+        {
+          "file": "photo9s1.jpeg",
+          "date": "2025-10-11T05:45:23.000Z"
+        }
+      ]
     },
     {
       "id": "10",
       "cover": {
         "file": "photo10.jpeg",
-        "date": "2025-05-26T01:28:43.000Z",
-        "camera": "Panasonic DMC-FX3",
+        "date": "2025-08-30T23:41:00.000Z",
+        "camera": "Canon G7X Mark III",
         "aperture": "f/2.8",
-        "shutter": "1/250s",
-        "iso": "ISO 200",
-        "key": "photo10.jpeg|1824612|1748233723000",
+        "shutter": "1/500s",
+        "iso": "",
+        "key": "photo10.jpeg|7384138|1761795516160.1917",
         "coordinates": [
           32.85012528329696,
           -117.27249849335072
@@ -203,39 +203,30 @@
       "id": "11",
       "cover": {
         "file": "photo11.jpeg",
-        "date": "2025-05-26T01:21:30.000Z",
-        "camera": "Panasonic DMC-FX3",
-        "aperture": "f/5.6",
-        "shutter": "1/1600s",
-        "iso": "ISO 200",
-        "key": "photo11.jpeg|1793650|1761795516235.4563",
+        "date": "2025-07-21T00:34:24.000Z",
+        "camera": "Canon G7X Mark III",
+        "aperture": "f/3.5",
+        "shutter": "1/80s",
+        "iso": "ISO 125",
+        "key": "photo11.jpeg|1944148|1761795516143.4128",
         "coordinates": [
           32.850183492461944,
           -117.2713407805771
         ],
         "locationTitle": "La Jolla Cove, San Diego, CA"
       },
-      "subs": [
-        {
-          "file": "photo11s1.jpeg",
-          "date": "2025-05-26T01:35:10.000Z"
-        },
-        {
-          "file": "photo11s2.jpeg",
-          "date": "2025-05-26T01:38:53.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "12",
       "cover": {
         "file": "photo12.jpeg",
-        "date": "2025-05-15T21:16:54.000Z",
-        "camera": "Panasonic DMC-FX3",
-        "aperture": "f/5.6",
-        "shutter": "1/500s",
-        "iso": "ISO 100",
-        "key": "photo12.jpeg|2228266|1747343814000",
+        "date": "2025-07-16T20:32:21.000Z",
+        "camera": "Canon G7X Mark III",
+        "aperture": "f/9",
+        "shutter": "1/125s",
+        "iso": "ISO 125",
+        "key": "photo12.jpeg|4297254|1761795516132.1736",
         "coordinates": [
           42.42324722764652,
           -83.49271570847655
@@ -248,12 +239,12 @@
       "id": "13",
       "cover": {
         "file": "photo13.jpeg",
-        "date": "2025-04-29T22:26:54.000Z",
-        "camera": "Panasonic DMC-FX3",
-        "aperture": "f/5.6",
-        "shutter": "1/500s",
-        "iso": "ISO 200",
-        "key": "photo13.jpeg|2245840|1761795516223.3647",
+        "date": "2025-07-13T17:38:58.000Z",
+        "camera": "Canon G7X Mark III",
+        "aperture": "f/5",
+        "shutter": "1/1600s",
+        "iso": "ISO 125",
+        "key": "photo13.jpeg|3512170|1761795516117.1248",
         "coordinates": [
           42.27489125753568,
           -83.73968872224916
@@ -266,12 +257,12 @@
       "id": "14",
       "cover": {
         "file": "photo14.jpeg",
-        "date": "2025-04-24T21:40:43.000Z",
+        "date": "2025-05-30T20:17:51.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
-        "shutter": "1/400s",
+        "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo14.jpeg|2183817|1761889768918.8726",
+        "key": "photo14.jpeg|1815661|1748636271000",
         "coordinates": [
           42.27941056552996,
           -83.73177166563457
@@ -284,84 +275,75 @@
       "id": "15",
       "cover": {
         "file": "photo15.jpeg",
-        "date": "2025-03-30T00:40:35.000Z",
+        "date": "2025-05-26T01:28:43.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
-        "shutter": "1/320s",
+        "shutter": "1/250s",
         "iso": "ISO 200",
-        "key": "photo15.jpeg|1872680|1743295235000",
+        "key": "photo15.jpeg|1824612|1748233723000",
         "coordinates": [
           40.007597310189006,
           -83.02496643754797
         ],
         "locationTitle": "Schottenstein Center, Columbus, OH"
       },
-      "subs": [
-        {
-          "file": "photo15s1.jpeg",
-          "date": "2025-03-30T00:45:54.000Z"
-        },
-        {
-          "file": "photo15s2.jpeg",
-          "date": "2025-03-30T01:51:06.000Z"
-        },
-        {
-          "file": "photo15s3.jpeg",
-          "date": "2025-03-30T00:53:48.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "16",
       "cover": {
         "file": "photo16.jpeg",
-        "date": "2025-03-05T16:49:32.000Z",
+        "date": "2025-05-26T01:21:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
-        "shutter": "1/1000s",
-        "iso": "ISO 100",
-        "key": "photo16.jpeg|1683701|1741193372000",
+        "shutter": "1/1600s",
+        "iso": "ISO 200",
+        "key": "photo16.jpeg|1793650|1761795516235.4563",
         "coordinates": [
           26.118726048348755,
           -80.1046230514106
         ],
         "locationTitle": "Las Olas Beach, Fort Lauderdale, FL"
       },
-      "subs": []
+      "subs": [
+        {
+          "file": "photo16s1.jpeg",
+          "date": "2025-05-26T01:38:53.000Z"
+        },
+        {
+          "file": "photo16s2.jpeg",
+          "date": "2025-05-26T01:35:10.000Z"
+        }
+      ]
     },
     {
       "id": "17",
       "cover": {
         "file": "photo17.jpeg",
-        "date": "2025-02-03T13:59:18.000Z",
+        "date": "2025-05-15T21:16:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
-        "shutter": "1/200s",
-        "iso": "ISO 200",
-        "key": "photo17.jpeg|2716019|1738591158000",
+        "shutter": "1/500s",
+        "iso": "ISO 100",
+        "key": "photo17.jpeg|2228266|1747343814000",
         "coordinates": [
           42.290992164812856,
           -83.71837113210965
         ],
         "locationTitle": "North Campus, Ann Arbor, MI"
       },
-      "subs": [
-        {
-          "file": "photo17s1.jpeg",
-          "date": "2025-02-03T13:59:06.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "18",
       "cover": {
         "file": "photo18.jpeg",
-        "date": "2025-01-27T13:39:27.000Z",
+        "date": "2025-04-29T22:26:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
-        "shutter": "1/250s",
+        "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo18.jpeg|1910307|1737985167000",
+        "key": "photo18.jpeg|2245840|1761795516223.3647",
         "coordinates": [
           42.276699726767866,
           -83.73594722224679
@@ -374,12 +356,12 @@
       "id": "19",
       "cover": {
         "file": "photo19.jpeg",
-        "date": "2025-01-03T20:42:48.000Z",
+        "date": "2025-04-24T21:40:43.000Z",
         "camera": "Panasonic DMC-FX3",
-        "aperture": "f/5.6",
-        "shutter": "1/500s",
+        "aperture": "f/2.8",
+        "shutter": "1/400s",
         "iso": "ISO 200",
-        "key": "photo19.jpeg|1815201|1761795516205.5273",
+        "key": "photo19.jpeg|2183817|1761889768918.8726",
         "coordinates": [
           40.39855871749599,
           -74.100992989934
@@ -392,57 +374,61 @@
       "id": "20",
       "cover": {
         "file": "photo20.jpeg",
-        "date": "2025-01-01T20:24:52.000Z",
+        "date": "2025-03-30T00:40:35.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
-        "shutter": "1/25s",
+        "shutter": "1/320s",
         "iso": "ISO 200",
-        "key": "photo20.jpeg|1835285|1761795516195.6794",
+        "key": "photo20.jpeg|1872680|1743295235000",
         "coordinates": [
           40.85125986177034,
           -73.94362826333433
         ],
         "locationTitle": "George Washington Bridge, New York, NY"
       },
-      "subs": []
+      "subs": [
+        {
+          "file": "photo20s1.jpeg",
+          "date": "2025-03-30T00:53:48.000Z"
+        },
+        {
+          "file": "photo20s2.jpeg",
+          "date": "2025-03-30T01:51:06.000Z"
+        },
+        {
+          "file": "photo20s3.jpeg",
+          "date": "2025-03-30T00:45:54.000Z"
+        }
+      ]
     },
     {
       "id": "21",
       "cover": {
         "file": "photo21.jpeg",
-        "date": "2024-12-30T22:43:06.000Z",
+        "date": "2025-03-05T16:49:32.000Z",
         "camera": "Panasonic DMC-FX3",
-        "aperture": "f/2.8",
-        "shutter": "1/125s",
-        "iso": "ISO 200",
-        "key": "photo21.jpeg|1618228|1761795516176.2158",
+        "aperture": "f/5.6",
+        "shutter": "1/1000s",
+        "iso": "ISO 100",
+        "key": "photo21.jpeg|1683701|1741193372000",
         "coordinates": [
           40.44829445953067,
           -73.99979792099174
         ],
         "locationTitle": "Sandy Hook, NJ"
       },
-      "subs": [
-        {
-          "file": "photo21s1.jpeg",
-          "date": "2024-12-30T22:32:25.000Z"
-        },
-        {
-          "file": "photo21s2.jpeg",
-          "date": "2024-12-30T22:45:25.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "22",
       "cover": {
         "file": "photo22.jpeg",
-        "date": "2024-12-29T22:39:30.000Z",
+        "date": "2025-02-03T13:59:18.000Z",
         "camera": "Panasonic DMC-FX3",
-        "aperture": "f/2.8",
-        "shutter": "1/8s",
+        "aperture": "f/5.6",
+        "shutter": "1/200s",
         "iso": "ISO 200",
-        "key": "photo22.jpeg|2296336|1735511970000",
+        "key": "photo22.jpeg|2716019|1738591158000",
         "coordinates": [
           40.77920972973451,
           -73.96348261210275
@@ -452,7 +438,7 @@
       "subs": [
         {
           "file": "photo22s1.jpeg",
-          "date": "2024-12-29T22:49:03.000Z"
+          "date": "2025-02-03T13:59:06.000Z"
         }
       ]
     },
@@ -460,12 +446,12 @@
       "id": "23",
       "cover": {
         "file": "photo23.jpeg",
-        "date": "2024-12-29T19:17:30.000Z",
+        "date": "2025-01-27T13:39:27.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
-        "shutter": "1/1000s",
+        "shutter": "1/250s",
         "iso": "ISO 200",
-        "key": "photo23.jpeg|1788000|1761938193291.119",
+        "key": "photo23.jpeg|1910307|1737985167000",
         "coordinates": [
           40.752387494778326,
           -73.99396447437456
@@ -478,12 +464,12 @@
       "id": "24",
       "cover": {
         "file": "photo24.jpeg",
-        "date": "2024-12-21T20:54:00.000Z",
+        "date": "2025-01-03T20:42:48.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/5.6",
-        "shutter": "1/800s",
+        "shutter": "1/500s",
         "iso": "ISO 200",
-        "key": "photo24.jpeg|951308|1762213899224.6719",
+        "key": "photo24.jpeg|1815201|1761795516205.5273",
         "coordinates": [
           41.888664628478715,
           -87.62434040466405
@@ -496,43 +482,30 @@
       "id": "25",
       "cover": {
         "file": "photo25.jpeg",
-        "date": "2024-07-17T23:49:54.000Z",
+        "date": "2025-01-01T20:24:52.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
-        "shutter": "1/50s",
+        "shutter": "1/25s",
         "iso": "ISO 200",
-        "key": "photo25.jpeg|1714002|1762213501302.6592",
+        "key": "photo25.jpeg|1835285|1761795516195.6794",
         "coordinates": [
           42.192612186131775,
           -74.86433802317275
         ],
         "locationTitle": "Camp Nubar, NY"
       },
-      "subs": [
-        {
-          "file": "photo25s1.jpeg",
-          "date": "2024-06-29T01:05:50.000Z"
-        },
-        {
-          "file": "photo25s2.jpeg",
-          "date": "2024-07-11T17:03:10.000Z"
-        },
-        {
-          "file": "photo25s3.jpeg",
-          "date": "2024-07-02T18:41:24.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "26",
       "cover": {
         "file": "photo26.jpeg",
-        "date": "2024-06-15T21:26:16.000Z",
+        "date": "2024-12-30T22:43:06.000Z",
         "camera": "Panasonic DMC-FX3",
-        "aperture": "f/5.6",
-        "shutter": "1/1300s",
+        "aperture": "f/2.8",
+        "shutter": "1/125s",
         "iso": "ISO 200",
-        "key": "photo26.jpeg|2709073|1762213666300.4875",
+        "key": "photo26.jpeg|1618228|1761795516176.2158",
         "coordinates": [
           42.10798094925366,
           -86.48931603025454
@@ -542,15 +515,11 @@
       "subs": [
         {
           "file": "photo26s1.jpeg",
-          "date": "2024-06-15T15:26:56.000Z"
+          "date": "2024-12-30T22:45:25.000Z"
         },
         {
           "file": "photo26s2.jpeg",
-          "date": "2024-06-15T21:24:59.000Z"
-        },
-        {
-          "file": "photo26s3.jpeg",
-          "date": "2024-06-16T01:09:08.000Z"
+          "date": "2024-12-30T22:32:25.000Z"
         }
       ]
     },
@@ -558,53 +527,53 @@
       "id": "27",
       "cover": {
         "file": "photo27.jpeg",
-        "date": "2024-04-21T04:42:05.000Z",
+        "date": "2024-12-29T22:39:30.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
-        "shutter": "1/30s",
+        "shutter": "1/8s",
         "iso": "ISO 200",
-        "key": "photo27.jpeg|2535501|1762213540369.9353",
+        "key": "photo27.jpeg|2296336|1735511970000",
         "coordinates": [
           42.281312527229105,
           -83.75121067413329
         ],
         "locationTitle": "LIVE, Ann Arbor, MI"
       },
-      "subs": []
+      "subs": [
+        {
+          "file": "photo27s1.jpeg",
+          "date": "2024-12-29T22:49:03.000Z"
+        }
+      ]
     },
     {
       "id": "28",
       "cover": {
         "file": "photo28.jpeg",
-        "date": "2024-03-23T20:41:26.000Z",
+        "date": "2024-12-29T19:17:30.000Z",
         "camera": "Panasonic DMC-FX3",
-        "aperture": "f/2.8",
-        "shutter": "1/500s",
-        "iso": "ISO 100",
-        "key": "photo28.jpeg|2746277|1762213552860.0327",
+        "aperture": "f/5.6",
+        "shutter": "1/1000s",
+        "iso": "ISO 200",
+        "key": "photo28.jpeg|1788000|1761938193291.119",
         "coordinates": [
           44.64509178788705,
           -84.13784374148928
         ],
         "locationTitle": "Mio, MI"
       },
-      "subs": [
-        {
-          "file": "photo28s1.jpeg",
-          "date": "2024-03-23T20:42:10.000Z"
-        }
-      ]
+      "subs": []
     },
     {
       "id": "29",
       "cover": {
         "file": "photo29.jpeg",
-        "date": "2024-02-15T22:27:01.000Z",
+        "date": "2024-12-21T20:54:00.000Z",
         "camera": "Panasonic DMC-FX3",
-        "aperture": "f/2.8",
-        "shutter": "1/320s",
-        "iso": "ISO 100",
-        "key": "photo29.jpeg|1970370|1762213542252.1233",
+        "aperture": "f/5.6",
+        "shutter": "1/800s",
+        "iso": "ISO 200",
+        "key": "photo29.jpeg|951308|1762213899224.6719",
         "coordinates": [
           42.27692331009548,
           -83.73921374223394
@@ -617,17 +586,113 @@
       "id": "30",
       "cover": {
         "file": "photo30.jpeg",
-        "date": "2024-01-27T02:33:40.000Z",
+        "date": "2024-07-17T23:49:54.000Z",
         "camera": "Panasonic DMC-FX3",
         "aperture": "f/2.8",
-        "shutter": "1/8s",
+        "shutter": "1/50s",
         "iso": "ISO 200",
-        "key": "photo30.jpeg|2645179|1706322820000",
+        "key": "photo30.jpeg|1714002|1762213501302.6592",
         "coordinates": [
           42.27416922622093,
           -83.7407952316943
         ],
         "locationTitle": "E Madison St, Ann Arbor, MI"
+      },
+      "subs": [
+        {
+          "file": "photo30s1.jpeg",
+          "date": "2024-07-11T17:03:10.000Z"
+        },
+        {
+          "file": "photo30s2.jpeg",
+          "date": "2024-07-02T18:41:24.000Z"
+        },
+        {
+          "file": "photo30s3.jpeg",
+          "date": "2024-06-29T01:05:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "cover": {
+        "file": "photo31.jpeg",
+        "date": "2024-06-15T21:26:16.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/5.6",
+        "shutter": "1/1300s",
+        "iso": "ISO 200",
+        "key": "photo31.jpeg|2709073|1762213666300.4875"
+      },
+      "subs": [
+        {
+          "file": "photo31s1.jpeg",
+          "date": "2024-06-15T21:24:59.000Z"
+        },
+        {
+          "file": "photo31s2.jpeg",
+          "date": "2024-06-15T15:26:56.000Z"
+        },
+        {
+          "file": "photo31s3.jpeg",
+          "date": "2024-06-16T01:09:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "cover": {
+        "file": "photo32.jpeg",
+        "date": "2024-04-21T04:42:05.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/2.8",
+        "shutter": "1/30s",
+        "iso": "ISO 200",
+        "key": "photo32.jpeg|2535501|1762213540369.9353"
+      },
+      "subs": []
+    },
+    {
+      "id": "33",
+      "cover": {
+        "file": "photo33.jpeg",
+        "date": "2024-03-23T20:41:26.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/2.8",
+        "shutter": "1/500s",
+        "iso": "ISO 100",
+        "key": "photo33.jpeg|2746277|1762213552860.0327"
+      },
+      "subs": [
+        {
+          "file": "photo33s1.jpeg",
+          "date": "2024-03-23T20:42:10.000Z"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "cover": {
+        "file": "photo34.jpeg",
+        "date": "2024-02-15T22:27:01.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/2.8",
+        "shutter": "1/320s",
+        "iso": "ISO 100",
+        "key": "photo34.jpeg|1970370|1762213542252.1233"
+      },
+      "subs": []
+    },
+    {
+      "id": "35",
+      "cover": {
+        "file": "photo35.jpeg",
+        "date": "2024-01-27T02:33:40.000Z",
+        "camera": "Panasonic DMC-FX3",
+        "aperture": "f/2.8",
+        "shutter": "1/8s",
+        "iso": "ISO 200",
+        "key": "photo35.jpeg|2645179|1706322820000"
       },
       "subs": []
     }

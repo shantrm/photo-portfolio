@@ -1,76 +1,34 @@
-Photo Portfolio: https://shantrm.github.io/photo-portfolio/
+# Photo Portfolio
 
-Simple two-page photo site (gallery + about) with a lightbox and map.
+https://shantrm.github.io/photo-portfolio/
 
-**Adding or Removing Photos**
+## Updating the Gallery
 
-1) Add or remove files in images/.
-2) Update the site:
+1. Add or remove photos in `images/`
+2. Run:
 ```bash
 node refresh-gallery.js
 ```
 
-This will:
-- Normalize file extensions
-- Build the manifest from EXIF data
-- Rename files to match manifest order
-- Generate the gallery HTML
+The script handles extension normalization, EXIF extraction, file renaming, and HTML generation.
 
-**Adding Sub-Photos (Albums)**
+## Adding Location Data
 
-Choose one:
-- Name subs like photo<number>s*.* (e.g., photo14s1.JPG, photo14s2.JPG) and run:
-```bash
-node refresh-gallery.js
-```
-- Or edit gallery.json and add files to the cover's subs array, then run:
-```bash
-node generate-gallery-from-manifest.js
-```
-
-**Adding Location Data**
-
-Location data (coordinates and location titles) is stored in locations.json to prevent it from being lost when refreshing the gallery.
-
-**Adding or Editing Locations**
-
-1) Edit locations.json and add entries for photo files:
+Edit `locations.json`:
 ```json
 {
   "locations": {
     "photo1.jpeg": {
-      "coordinates": [42.27554497039414, -83.7394577157334],
-      "locationTitle": "Tappan Hall, Ann Arbor, MI"
-    },
-    "photo2.jpeg": {
-      "coordinates": [42.26978060872995, -83.73825853389415],
-      "locationTitle": "Arch St, Ann Arbor, MI"
+      "coordinates": [42.275, -83.739],
+      "locationTitle": "Ann Arbor, MI"
     }
   }
 }
 ```
 
-2) Run the refresh script to merge location data into the manifest:
-```bash
-node refresh-gallery.js
-```
+Then run `node refresh-gallery.js` to apply.
 
-Or if you just want to update the HTML without rebuilding:
-```bash
-node generate-gallery-from-manifest.js
-```
+## Requirements
 
-**Workflow**
-
-Adding new photos with locations: 
-1. Add photos to images/
-2. Run node refresh-gallery.js (rebuilds manifest from EXIF)
-3. Add location data to locations.json for the new photos
-4. Run node refresh-gallery.js again (merges locations into manifest)
-5. Run node generate-gallery-from-manifest.js (updates HTML)
-
-Adding locations to existing photos:
-1. Edit locations.json with the location data
-2. Run node refresh-gallery.js (merges locations) OR node generate-gallery-from-manifest.js (just updates HTML)
-
-Note: Location data in locations.json is automatically merged into gallery.json when you run refresh-gallery.js, so your location data will never be lost when refreshing!
+- Node.js
+- exiftool (`brew install exiftool`)
