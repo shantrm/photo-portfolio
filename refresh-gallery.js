@@ -118,34 +118,40 @@ function buildManifest() {
 
     entries.sort((a, b) => (new Date(b.cover.date || 0)) - (new Date(a.cover.date || 0)));
 
-    // Merge location data
-    if (fs.existsSync(LOCATIONS)) {
-        try {
-            const locationsData = JSON.parse(fs.readFileSync(LOCATIONS, 'utf8'));
-            const locations = locationsData.locations || {};
-            entries.forEach(item => {
-                if (locations[item.cover.file]) {
-                    const loc = locations[item.cover.file];
-                    if (loc.coordinates) item.cover.coordinates = loc.coordinates;
-                    if (loc.locationTitle) item.cover.locationTitle = loc.locationTitle;
-                }
-                if (item.subs) {
-                    item.subs.forEach(sub => {
-                        if (locations[sub.file]) {
-                            const loc = locations[sub.file];
-                            if (loc.coordinates) sub.coordinates = loc.coordinates;
-                            if (loc.locationTitle) sub.locationTitle = loc.locationTitle;
-                        }
-                    });
-                }
-            });
-            console.log('  merged location data');
-        } catch (err) {
-            console.warn(`  warning: could not parse locations.json: ${err.message}`);
-        }
-    }
-
     return entries;
+}
+
+// ─────────────────────────────────────────────────────────────
+// Merge location data (called AFTER renaming)
+// ─────────────────────────────────────────────────────────────
+
+function mergeLocationData(items) {
+    if (!fs.existsSync(LOCATIONS)) return;
+
+    try {
+        const locationsData = JSON.parse(fs.readFileSync(LOCATIONS, 'utf8'));
+        const locations = locationsData.locations || {};
+
+        items.forEach(item => {
+            if (locations[item.cover.file]) {
+                const loc = locations[item.cover.file];
+                if (loc.coordinates) item.cover.coordinates = loc.coordinates;
+                if (loc.locationTitle) item.cover.locationTitle = loc.locationTitle;
+            }
+            if (item.subs) {
+                item.subs.forEach(sub => {
+                    if (locations[sub.file]) {
+                        const loc = locations[sub.file];
+                        if (loc.coordinates) sub.coordinates = loc.coordinates;
+                        if (loc.locationTitle) sub.locationTitle = loc.locationTitle;
+                    }
+                });
+            }
+        });
+        console.log('  merged location data');
+    } catch (err) {
+        console.warn(`  warning: could not parse locations.json: ${err.message}`);
+    }
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -197,6 +203,30 @@ function renameToManifestOrder(items) {
             fs.renameSync(absTo, path.join(IMAGES, backup));
         }
         fs.renameSync(absTmp, absTo);
+    }
+
+    // Update locations.json to match new filenames
+    if (plan.length > 0 && fs.existsSync(LOCATIONS)) {
+        try {
+            const locationsData = JSON.parse(fs.readFileSync(LOCATIONS, 'utf8'));
+            const oldLocations = locationsData.locations || {};
+            const newLocations = {};
+
+            // Build a map of old -> new filenames
+            const renameMap = new Map(plan.map(p => [p.from, p.to]));
+
+            // Remap locations to new filenames
+            for (const [filename, data] of Object.entries(oldLocations)) {
+                const newFilename = renameMap.get(filename) || filename;
+                newLocations[newFilename] = data;
+            }
+
+            locationsData.locations = newLocations;
+            fs.writeFileSync(LOCATIONS, JSON.stringify(locationsData, null, 4), 'utf8');
+            console.log('  updated locations.json');
+        } catch (err) {
+            console.warn(`  warning: could not update locations.json: ${err.message}`);
+        }
     }
 
     updateRefs.forEach(fn => fn());
@@ -275,7 +305,11 @@ function main() {
     const renamed = renameToManifestOrder(items);
     console.log(`   ${renamed} file(s) renamed\n`);
 
-    console.log('4. Updating index.html...');
+    console.log('4. Merging location data...');
+    mergeLocationData(items);
+    console.log('');
+
+    console.log('5. Updating index.html...');
     fs.writeFileSync(MANIFEST, JSON.stringify({ version: 1, items }, null, 2), 'utf8');
     updateIndexHTML(items);
     console.log('   done\n');
